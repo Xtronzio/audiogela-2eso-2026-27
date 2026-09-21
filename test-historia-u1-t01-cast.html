@@ -82,6 +82,63 @@ const NIVELES_T01 = [
     ]
   }
 ];
+
+// Opciones revisadas para evitar pistas por longitud o redacción.
+const OPCIONES_REVISADAS_T01 = {
+  2: [
+    ['Comunicaba territorios y facilitaba intercambios','Separaba las provincias y dificultaba sus contactos','Funcionaba únicamente como una frontera defensiva','Obligaba a realizar todos los desplazamientos por tierra'],
+    ['Cada parte pasó a tener su propio gobierno','Occidente pasó a gobernar todos los territorios','Los hunos asumieron el gobierno de las dos partes','Ambas partes desaparecieron de forma inmediata'],
+    ['Por la presión ejercida por el avance de los hunos','Por una orden de traslado dictada desde Roma','Por el deseo de apoyar al Imperio de Oriente','Por la expansión de nuevos pueblos desde Arabia'],
+    ['Aumentaron su debilitamiento y fragmentación','Restablecieron la unidad política del territorio','Reforzaron de forma permanente al emperador','Permitieron reunificar las dos partes del Imperio'],
+    ['La división ocurrió antes que la caída de Occidente','Las dos fechas corresponden a un mismo acontecimiento','La caída de Occidente fue anterior a la división','Las dos fechas señalan el final del Imperio de Oriente'],
+    ['Que el mundo romano no desapareció al mismo tiempo','Que el Imperio occidental sobrevivió sin cambios','Que la división política de 395 nunca llegó a aplicarse','Que Atila consiguió gobernar desde Constantinopla'],
+    ['Presionaron y desplazaron a otros pueblos hacia Roma','Fundaron un nuevo gobierno romano en Oriente','Organizaron oficialmente la división del año 395','Eligieron al último emperador del Imperio occidental'],
+    ['Señala la caída occidental y el inicio de la Edad Media','Señala la división administrativa entre Oriente y Occidente','Indica el comienzo de la expansión política del islam','Indica la fundación del posterior Imperio carolingio'],
+    ['Fue un proceso de debilitamiento y presiones sucesivas','Fue un acontecimiento repentino y sin antecedentes','Fue una consecuencia exclusiva del comercio mediterráneo','Fue provocado por la desaparición anterior de Oriente'],
+    ['Duró aproximadamente un milenio','Duró únicamente unas cinco décadas','Duró exactamente un solo siglo','Duró solo desde la división hasta la caída occidental']
+  ],
+  3: [
+    ['Unidad mediterránea → división → presiones → caída occidental','Caída occidental → división → unidad → asentamientos','Presiones externas → caída → unidad → división política','División política → unidad → caída → expansión romana'],
+    ['Desplazamiento de pueblos germánicos','Reunificación de las dos partes romanas','Desaparición de las rutas mediterráneas','Coronación de Atila como emperador romano'],
+    ['395: división; 476: caída de Occidente','395: caída occidental; 476: división imperial','395: avance de Atila; 476: unidad romana','395: inicio medieval; 476: caída de Oriente'],
+    ['Entradas germánicas: causa; fragmentación: consecuencia','División imperial: consecuencia; caída occidental: causa','Mare Nostrum: consecuencia; Edad Media: causa','Caída de Oriente: causa; unidad romana: consecuencia'],
+    ['Debe colocar 395 antes que 476','Debe eliminar la fecha 395 de la secuencia','Debe situar 476 antes del Imperio romano','Debe mantener las fechas en ese mismo orden'],
+    ['El Mare Nostrum como espacio de comunicación','La caída definitiva del Imperio de Occidente','El comienzo convencional de la Edad Media','La desaparición de la autoridad imperial occidental'],
+    ['La presión de los hunos sobre otros pueblos','La continuidad del Imperio romano de Oriente','El nombre latino utilizado para el Mediterráneo','La larga duración que tuvo después la Edad Media'],
+    ['La entrada y el asentamiento de pueblos germánicos','El uso romano del nombre latino Mare Nostrum','La continuidad política del Imperio de Oriente','La elección de fechas para dividir etapas históricas'],
+    ['Presiones externas y asentamientos germánicos','Hégira y expansión territorial del islam','Coronación imperial y Tratado de Verdún','Cisma religioso y conquista de Constantinopla'],
+    ['Unidad → división → presiones → caída de Occidente','División → expansión → unidad → caída de Oriente','Presiones → unidad → conquista → continuidad occidental','Unidad → caída de Oriente → división → Edad Antigua']
+  ],
+  4: [
+    ['En 395 se dividió; Occidente cayó en 476 y Oriente continuó','En 395 cayó Oriente; Occidente se mantuvo hasta 476','En 395 terminó la Edad Antigua en todo el territorio romano','En 395 las dos partes romanas desaparecieron definitivamente'],
+    ['Confunde a los hunos con los germanos y reduce todo a una causa','Solo confunde la fecha concreta en la que sucedió la invasión','Solo equivoca el nombre del dirigente que gobernaba a los hunos','Describe correctamente tanto al pueblo como el proceso histórico'],
+    ['Mare Nostrum indica conexión; los asentamientos, fragmentación','Mare Nostrum indica aislamiento; los asentamientos, unificación','Ambos conceptos representan la misma unidad política occidental','Ambos conceptos explican la desaparición del Imperio de Oriente'],
+    ['Porque existieron división, debilitamiento y presiones previas','Porque no se conoce ninguna fecha vinculada con su desaparición','Porque el Imperio de Oriente había desaparecido antes de 395','Porque ningún pueblo extranjero llegó a entrar en Occidente'],
+    ['El texto B, porque reúne varias causas relacionadas','El texto A, porque una personalidad explica todo el proceso','Los dos, porque ofrecen explicaciones igual de completas','Ninguno, porque no incluyen hechos tratados en el episodio'],
+    ['La crisis tuvo efectos diferentes en Oriente y Occidente','La división política de 395 fue una invención posterior','El Imperio occidental continuó funcionando sin cambios','Los hunos consiguieron controlar las dos partes romanas'],
+    ['476 es una referencia, aunque la transformación fue progresiva','Toda Europa cambió completamente durante un único día de 476','La Edad Media comenzó antes de que existiera el Imperio romano','Las fechas 395 y 476 pueden utilizarse de forma intercambiable'],
+    ['El Imperio romano de Oriente continuó existiendo','Atila fue el dirigente más conocido de los hunos','El Mediterráneo recibió el nombre de Mare Nostrum','La Edad Media se prolongó durante numerosos siglos'],
+    ['El mar favoreció la conexión; la crisis fragmentó Occidente','El mar impidió los contactos; la crisis unificó Occidente','La geografía mediterránea no tuvo relación alguna con Roma','Los hunos llegaron porque el Mediterráneo era un océano'],
+    ['Del Imperio dividido a la caída de Occidente','Del nacimiento del islam a su expansión mediterránea','De la coronación de Carlomagno al Tratado de Verdún','Del esplendor de Bizancio a la conquista de Oriente']
+  ],
+  5: [
+    ['El debilitamiento y la fragmentación de Occidente','La expansión del islam por el Mediterráneo occidental','La formación política del posterior Imperio carolingio','La recuperación de la unidad entre Oriente y Occidente'],
+    ['División del Imperio y desplazamientos de pueblos','Expansión del islam y conquista de nuevos territorios','Organización carolingia mediante marcas y condados','Separación religiosa entre las Iglesias de Oriente y Roma'],
+    ['División, presión de los hunos y asentamientos germánicos','Nombre del Mediterráneo y personalidad política de Atila','Duración de la Edad Media y continuidad del Imperio oriental','Comercio marítimo romano y posterior expansión carolingia'],
+    ['Hunos: influencia indirecta; asentamientos: actuación más directa','Hunos: actuación más directa; asentamientos: influencia indirecta','Mare Nostrum: causa directa; división: consecuencia indirecta','Oriente: influencia indirecta; Occidente: actuación más directa'],
+    ['Oriente continuó; Occidente se fragmentó en nuevos poderes','Las dos partes desaparecieron inmediatamente después de 395','Occidente continuó sin cambios mientras Oriente desaparecía','No se produjo ninguna continuidad política después del año 476'],
+    ['Presión de los hunos y desplazamientos germánicos','Coronación de Carlomagno y organización de condados','Hégira de Mahoma y posterior expansión del islam','Cisma religioso y separación de las Iglesias cristianas'],
+    ['Culmina un proceso anterior y marca una nueva etapa','Fue un hecho aislado que carecía de causas anteriores','Supuso también la desaparición inmediata de Oriente','Demuestra que las comunicaciones mediterráneas dejaron de existir'],
+    ['Su avance desplazó pueblos y aumentó la presión sobre Occidente','Atila fue un dirigente asiático que llegó a territorio europeo','Los hunos procedían de Asia y estaban dirigidos por Atila','La presión exterior ocurrió antes de la caída del año 476'],
+    ['La organización territorial de los condados carolingios','La división política del Imperio romano en el año 395','La presión ejercida por los hunos sobre otros pueblos','La entrada y el asentamiento de germanos en Occidente'],
+    ['Unidad mediterránea, división, presiones y caída occidental','Atila conquistó por sí solo todo el Imperio en el año 476','Oriente desapareció en 395 y entonces comenzó la Edad Media','Los pueblos germánicos crearon el Mare Nostrum tras invadir Roma']
+  ]
+};
+
+NIVELES_T01.forEach(nivel => {
+  const revisadas = OPCIONES_REVISADAS_T01[nivel.nivel];
+  if (revisadas) nivel.preguntas.forEach((pregunta, i) => { pregunta[1] = revisadas[i]; pregunta[2] = 0; });
+});
 </script><script>
 const shuffle=a=>{const b=[...a];for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]]}return b};const menu=document.getElementById('menu'),quiz=document.getElementById('quiz'),result=document.getElementById('result'),levels=document.getElementById('levels');let selected,questions,index,correct,answered;
 function key(n){return `audiogela:t01:cast:nivel:${n}`};function renderLevels(){levels.innerHTML='';NIVELES_T01.forEach(n=>{const best=Number(localStorage.getItem(key(n.nivel))||0),b=document.createElement('button');b.className='level';b.innerHTML=`<span class="level-number">${n.nivel}</span><span><strong>${n.nombre}</strong><small>${n.descripcion}</small></span><span class="level-score">${best?`Mejor: ${best}/10`:'Sin realizar'}</span>`;b.onclick=()=>start(n);levels.appendChild(b)})}

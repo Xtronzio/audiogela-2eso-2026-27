@@ -5,25 +5,23 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#0B438F">
   <title>AUDIO GELA · 2.º ESO · 2026/27</title>
+  <meta name="description" content="Audios, test y fichas de estudio de 2.º ESO organizados por asignatura, idioma, unidad y tema.">
   <link rel="alternate" type="application/rss+xml" title="AUDIO GELA · 2.º ESO" href="feed.xml">
   <style>
-    :root{--bg:#f4f7fb;--card:#ffffff;--text:#0b438f;--muted:#536777;--blue:#0b438f;--line:#d9e2ec}
-    *{box-sizing:border-box} body{margin:0;background:linear-gradient(180deg,#fff 0,#f4f7fb 48%,#edf2f7 100%);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif}
-    main{width:min(1100px,calc(100% - 36px));margin:auto;padding:54px 0 90px}
-    header{display:grid;grid-template-columns:280px 1fr;gap:44px;align-items:center;margin-bottom:52px}
-    .cover{width:100%;border-radius:28px;box-shadow:0 28px 70px rgba(11,67,143,.2)}
-    .eyebrow{color:var(--blue);font-size:.8rem;font-weight:800;letter-spacing:.18em;text-transform:uppercase}
-    h1{font-size:clamp(2.3rem,6vw,5.2rem);line-height:.93;margin:.45rem 0 1rem;letter-spacing:-.055em}
-    .lead{color:var(--muted);font-size:1.1rem;line-height:1.6;max-width:680px}
-    .rss{display:inline-flex;margin-top:16px;padding:11px 15px;border:1px solid var(--line);border-radius:999px;color:var(--text);text-decoration:none;font-weight:700}
-    .rss:hover{border-color:var(--blue);background:var(--blue);color:#fff}
-    .section-title{display:flex;justify-content:space-between;align-items:end;border-bottom:1px solid var(--line);padding-bottom:16px;margin-bottom:18px}
-    h2{font-size:1.55rem;margin:0}.count{color:var(--muted);font-size:.9rem}
-    .episodes{display:grid;gap:14px}.episode{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:22px;box-shadow:0 10px 26px rgba(11,67,143,.07)}
-    .meta{color:var(--blue);font-size:.76rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
-    h3{font-size:1.25rem;margin:8px 0 8px}.episode p{color:var(--muted);line-height:1.5;margin:0 0 14px}
-    audio{width:100%;height:42px} footer{color:var(--muted);text-align:center;margin-top:50px;font-size:.85rem}
-    @media(max-width:720px){header{grid-template-columns:1fr;gap:28px}.cover{max-width:340px}main{padding-top:28px}}
+    :root{--bg:#f4f7fb;--card:#fff;--text:#0b438f;--muted:#536777;--blue:#0b438f;--blue-2:#eaf1fb;--line:#d6e0ec;--shadow:0 12px 32px rgba(11,67,143,.08)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:linear-gradient(180deg,#fff 0,#f4f7fb 45%,#edf2f7 100%);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+    button,a,summary{font:inherit}button{cursor:pointer}main{width:min(1100px,calc(100% - 36px));margin:auto;padding:48px 0 84px}
+    header{display:grid;grid-template-columns:280px 1fr;gap:44px;align-items:center;margin-bottom:52px}.cover{width:100%;border-radius:28px;box-shadow:0 28px 70px rgba(11,67,143,.2)}
+    .eyebrow{font-size:.78rem;font-weight:850;letter-spacing:.18em;text-transform:uppercase}h1{font-size:clamp(2.7rem,6vw,5.2rem);line-height:.93;margin:.45rem 0 1rem;letter-spacing:-.055em}.lead{color:var(--muted);font-size:1.08rem;line-height:1.65;max-width:690px;margin:0}
+    .catalog-heading{display:flex;justify-content:space-between;gap:18px;align-items:end;margin-bottom:17px}.catalog-heading h2{font-size:1.55rem;margin:0}.catalog-heading p{color:var(--muted);margin:0;font-size:.9rem}
+    details{background:var(--card)}summary{list-style:none}summary::-webkit-details-marker{display:none}.subject{border:1px solid var(--line);border-radius:24px;box-shadow:var(--shadow);overflow:hidden}.subject-summary,.language-summary,.unit-summary,.episode-summary{display:flex;align-items:center;gap:14px;cursor:pointer}.subject-summary{padding:22px 24px}.subject-icon{display:grid;place-items:center;width:48px;height:48px;border-radius:15px;background:var(--blue);color:#fff;font-weight:900}.summary-copy{flex:1;min-width:0}.summary-copy strong{display:block;font-size:1.22rem}.summary-copy span,.summary-count{color:var(--muted);font-size:.88rem}.chevron{width:11px;height:11px;border-right:2px solid var(--blue);border-bottom:2px solid var(--blue);transform:rotate(45deg);transition:.2s}.subject[open]>.subject-summary .chevron,.language[open]>.language-summary .chevron,.unit[open]>.unit-summary .chevron,.episode[open]>.episode-summary .chevron{transform:rotate(225deg)}
+    .subject-body{padding:0 24px 24px;border-top:1px solid var(--line)}.language{margin-top:18px;border:1px solid var(--line);border-radius:18px;overflow:hidden}.language-summary{padding:17px 18px;background:#f8fbff}.language-badge{padding:5px 9px;border-radius:999px;background:var(--blue);color:#fff;font-size:.72rem;font-weight:850;letter-spacing:.08em}.language-summary .summary-copy strong{font-size:1.06rem}
+    .language-body{padding:0 17px 17px}.unit{margin-top:14px;border:1px solid var(--line);border-radius:16px;overflow:hidden}.unit-summary{padding:16px 17px;background:var(--blue-2)}.unit-summary .summary-copy strong{font-size:1rem}.episodes{display:grid;gap:10px;padding:12px}.episode{border:1px solid var(--line);border-radius:15px;overflow:hidden}.episode-summary{padding:15px 16px}.episode-number{font-size:.76rem;font-weight:900;letter-spacing:.1em}.episode-summary .summary-copy strong{font-size:1rem}.episode-summary .summary-copy span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.duration{font-size:.8rem;font-weight:800;color:var(--muted)}
+    .episode-body{padding:0 16px 17px;border-top:1px solid var(--line)}.episode-body p{color:var(--muted);line-height:1.5;margin:14px 0}.episode audio{width:100%;height:42px}.resources{display:flex;flex-wrap:wrap;gap:9px;margin-top:14px}.resource{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:42px;padding:9px 14px;border-radius:12px;text-decoration:none;font-weight:800;font-size:.9rem;border:1px solid var(--blue);color:var(--blue);background:#fff}.resource.primary{background:var(--blue);color:#fff}.resource.disabled{border-color:var(--line);background:#f5f7f9;color:#82909c;cursor:not-allowed}.resource-note{width:100%;color:var(--muted);font-size:.78rem;margin-top:0}
+    .coming{display:flex;align-items:center;gap:13px;margin-top:13px;padding:16px 18px;border:1px dashed #b7c7d9;border-radius:18px;background:#fbfdff}.coming .language-badge{background:#8ca0b6}.coming strong{display:block}.coming span:last-child{color:var(--muted);font-size:.86rem}.soon{margin-left:auto;color:var(--blue)!important;font-weight:800}
+    .podcast-help{margin-top:24px;border:1px solid var(--line);border-radius:18px;overflow:hidden}.podcast-help summary{display:flex;align-items:center;gap:12px;padding:17px 18px;cursor:pointer;font-weight:800}.podcast-help summary .chevron{margin-left:auto}.podcast-help[open] summary .chevron{transform:rotate(225deg)}.help-body{padding:0 18px 18px;color:var(--muted);line-height:1.55}.help-body ol{padding-left:22px}.copy-row{display:flex;gap:8px;align-items:stretch}.feed-url{min-width:0;flex:1;border:1px solid var(--line);border-radius:11px;padding:10px 12px;background:#f8fafc;color:#40566b;overflow:hidden;text-overflow:ellipsis}.copy-button{border:0;border-radius:11px;padding:10px 14px;background:var(--blue);color:#fff;font-weight:800}
+    footer{color:var(--muted);text-align:center;margin-top:44px;font-size:.82rem;font-weight:750;letter-spacing:.08em}
+    @media(max-width:720px){main{width:min(100% - 24px,1100px);padding-top:22px}header{grid-template-columns:1fr;gap:26px;margin-bottom:38px}.cover{max-width:270px}.subject-summary{padding:18px}.subject-body{padding:0 12px 15px}.language-body{padding:0 9px 10px}.unit-summary{padding:14px}.episodes{padding:8px}.duration{display:none}.resources{display:grid;grid-template-columns:1fr}.resource-note{grid-column:1}.copy-row{flex-direction:column}.catalog-heading{display:block}.catalog-heading p{margin-top:5px}}
   </style>
 </head>
 <body>
@@ -33,20 +31,77 @@
     <div>
       <div class="eyebrow">Podcast educativo · Curso 2026/27</div>
       <h1>AUDIO<br>GELA</h1>
-      <p class="lead">Explicaciones claras y resúmenes para estudiar 2.º ESO escuchando. Cada episodio está organizado por asignatura, unidad y tema.</p>
-      <a class="rss" href="feed.xml">Abrir canal RSS</a>
+      <p class="lead">Escucha, repasa y practica los contenidos de 2.º ESO. Todo está organizado por asignatura, idioma, unidad y tema.</p>
     </div>
   </header>
-  <div class="section-title"><h2>Historia · Unidad 1</h2><span class="count">6 episodios</span></div>
-  <section class="episodes">
-    <article class="episode"><div class="meta">T01 · 8:12</div><h3>Cómo comenzó la Edad Media</h3><p>Del Mare Nostrum a la caída del Imperio romano de Occidente.</p><audio controls preload="none" src="01-historia-u1-comienzo-edad-media.mp3"></audio></article>
-    <article class="episode"><div class="meta">T02 · 8:06</div><h3>El Imperio bizantino</h3><p>La continuidad romana en Oriente y su evolución cultural y religiosa.</p><audio controls preload="none" src="02-historia-u1-imperio-bizantino.mp3"></audio></article>
-    <article class="episode"><div class="meta">T03 · 8:10</div><h3>Los reinos germánicos</h3><p>La transformación política, social y económica de Europa occidental.</p><audio controls preload="none" src="03-historia-u1-reinos-germanicos.mp3"></audio></article>
-    <article class="episode"><div class="meta">T04 · 7:31</div><h3>El reino visigodo</h3><p>La creación del reino de Toledo y su caída en el año 711.</p><audio controls preload="none" src="04-historia-u1-reino-visigodo.mp3"></audio></article>
-    <article class="episode"><div class="meta">T05 · 8:04</div><h3>El Imperio carolingio</h3><p>Carlomagno, la organización imperial y el Tratado de Verdún.</p><audio controls preload="none" src="05-historia-u1-imperio-carolingio.mp3"></audio></article>
-    <article class="episode"><div class="meta">T06 · 8:02</div><h3>Nacimiento y expansión del islam</h3><p>Arabia, Mahoma, la Hégira, la expansión y los cinco pilares.</p><audio controls preload="none" src="06-historia-u1-nacimiento-expansion-islam.mp3"></audio></article>
+
+  <div class="catalog-heading"><h2>Asignaturas</h2><p>Selecciona una asignatura y despliega el tema que quieras estudiar.</p></div>
+
+  <section aria-label="Catálogo de asignaturas">
+    <details class="subject remember" id="asignatura-historia" open>
+      <summary class="subject-summary"><span class="subject-icon" aria-hidden="true">H</span><span class="summary-copy"><strong>Historia</strong><span>1 unidad · 6 episodios</span></span><span class="summary-count">1 disponible · EUS próximamente</span><span class="chevron" aria-hidden="true"></span></summary>
+      <div class="subject-body">
+        <details class="language remember" id="historia-castellano" open>
+          <summary class="language-summary"><span class="language-badge">CAST</span><span class="summary-copy"><strong>Castellano</strong><span>6 episodios disponibles</span></span><span class="chevron" aria-hidden="true"></span></summary>
+          <div class="language-body">
+            <details class="unit remember" id="historia-castellano-u1" open>
+              <summary class="unit-summary"><span class="summary-copy"><strong>Unidad 1 · La Edad Media</strong><span>6 temas</span></span><span class="chevron" aria-hidden="true"></span></summary>
+              <div class="episodes">
+                <details class="episode" id="historia-castellano-u1-t01">
+                  <summary class="episode-summary"><span class="episode-number">T01</span><span class="summary-copy"><strong>Cómo comenzó la Edad Media</strong><span>Del Mare Nostrum a la caída del Imperio romano de Occidente.</span></span><span class="duration">8:12</span><span class="chevron" aria-hidden="true"></span></summary>
+                  <div class="episode-body"><p>Del Mare Nostrum a la caída del Imperio romano de Occidente.</p><audio controls preload="none" src="01-historia-u1-comienzo-edad-media.mp3"></audio><div class="resources"><span class="resource primary disabled" aria-disabled="true">Test interactivo</span><span class="resource disabled" aria-disabled="true">Ficha imprimible</span><span class="resource-note">Los materiales se activarán al incorporar el guion validado del tema.</span></div></div>
+                </details>
+                <details class="episode" id="historia-castellano-u1-t02">
+                  <summary class="episode-summary"><span class="episode-number">T02</span><span class="summary-copy"><strong>El Imperio bizantino</strong><span>La continuidad romana en Oriente y su evolución cultural y religiosa.</span></span><span class="duration">8:06</span><span class="chevron" aria-hidden="true"></span></summary>
+                  <div class="episode-body"><p>La continuidad romana en Oriente y su evolución cultural y religiosa.</p><audio controls preload="none" src="02-historia-u1-imperio-bizantino.mp3"></audio><div class="resources"><span class="resource primary disabled" aria-disabled="true">Test interactivo</span><span class="resource disabled" aria-disabled="true">Ficha imprimible</span></div></div>
+                </details>
+                <details class="episode" id="historia-castellano-u1-t03">
+                  <summary class="episode-summary"><span class="episode-number">T03</span><span class="summary-copy"><strong>Los reinos germánicos</strong><span>La transformación política, social y económica de Europa occidental.</span></span><span class="duration">8:10</span><span class="chevron" aria-hidden="true"></span></summary>
+                  <div class="episode-body"><p>La transformación política, social y económica de Europa occidental.</p><audio controls preload="none" src="03-historia-u1-reinos-germanicos.mp3"></audio><div class="resources"><span class="resource primary disabled" aria-disabled="true">Test interactivo</span><span class="resource disabled" aria-disabled="true">Ficha imprimible</span></div></div>
+                </details>
+                <details class="episode" id="historia-castellano-u1-t04">
+                  <summary class="episode-summary"><span class="episode-number">T04</span><span class="summary-copy"><strong>El reino visigodo</strong><span>La creación del reino de Toledo y su caída en el año 711.</span></span><span class="duration">7:31</span><span class="chevron" aria-hidden="true"></span></summary>
+                  <div class="episode-body"><p>La creación del reino de Toledo y su caída en el año 711.</p><audio controls preload="none" src="04-historia-u1-reino-visigodo.mp3"></audio><div class="resources"><span class="resource primary disabled" aria-disabled="true">Test interactivo</span><span class="resource disabled" aria-disabled="true">Ficha imprimible</span></div></div>
+                </details>
+                <details class="episode" id="historia-castellano-u1-t05">
+                  <summary class="episode-summary"><span class="episode-number">T05</span><span class="summary-copy"><strong>El Imperio carolingio</strong><span>Carlomagno, la organización imperial y el Tratado de Verdún.</span></span><span class="duration">8:04</span><span class="chevron" aria-hidden="true"></span></summary>
+                  <div class="episode-body"><p>Carlomagno, la organización imperial y el Tratado de Verdún.</p><audio controls preload="none" src="05-historia-u1-imperio-carolingio.mp3"></audio><div class="resources"><span class="resource primary disabled" aria-disabled="true">Test interactivo</span><span class="resource disabled" aria-disabled="true">Ficha imprimible</span></div></div>
+                </details>
+                <details class="episode" id="historia-castellano-u1-t06">
+                  <summary class="episode-summary"><span class="episode-number">T06</span><span class="summary-copy"><strong>Nacimiento y expansión del islam</strong><span>Arabia, Mahoma, la Hégira, la expansión y los cinco pilares.</span></span><span class="duration">8:02</span><span class="chevron" aria-hidden="true"></span></summary>
+                  <div class="episode-body"><p>Arabia, Mahoma, la Hégira, la expansión y los cinco pilares.</p><audio controls preload="none" src="06-historia-u1-nacimiento-expansion-islam.mp3"></audio><div class="resources"><span class="resource primary disabled" aria-disabled="true">Test interactivo</span><span class="resource disabled" aria-disabled="true">Ficha imprimible</span></div></div>
+                </details>
+              </div>
+            </details>
+          </div>
+        </details>
+
+        <div class="coming" aria-label="Euskara, contenido pendiente"><span class="language-badge">EUS</span><span><strong>Euskara</strong><span>Preparado para añadir audios, test y fichas</span></span><span class="soon">Próximamente</span></div>
+      </div>
+    </details>
   </section>
+
+  <details class="podcast-help">
+    <summary>Añadir AUDIO GELA a la aplicación Podcasts <span class="chevron" aria-hidden="true"></span></summary>
+    <div class="help-body"><ol><li>Abre Podcasts y entra en <strong>Biblioteca</strong>.</li><li>Pulsa <strong>···</strong> y elige <strong>Seguir un programa por URL</strong>.</li><li>Copia y pega la dirección siguiente.</li></ol><div class="copy-row"><div class="feed-url" id="feed-url">https://xtronzio.github.io/audiogela-2eso-2026-27/feed.xml</div><button class="copy-button" id="copy-feed" type="button">Copiar URL</button></div></div>
+  </details>
+
   <footer>IKASI ENTZUNEZ · APRENDE ESCUCHANDO</footer>
 </main>
+<script>
+  const remembered = document.querySelectorAll('details.remember[id]');
+  remembered.forEach((item) => {
+    const saved = localStorage.getItem('audiogela:' + item.id);
+    if (saved !== null) item.open = saved === 'open';
+    item.addEventListener('toggle', () => localStorage.setItem('audiogela:' + item.id, item.open ? 'open' : 'closed'));
+  });
+  document.querySelectorAll('audio').forEach((player) => player.addEventListener('play', () => document.querySelectorAll('audio').forEach((other) => { if (other !== player) other.pause(); })));
+  document.getElementById('copy-feed').addEventListener('click', async (event) => {
+    const url = document.getElementById('feed-url').textContent.trim();
+    try { await navigator.clipboard.writeText(url); event.currentTarget.textContent = 'Copiada'; }
+    catch { event.currentTarget.textContent = 'Selecciona la URL'; }
+    setTimeout(() => { event.currentTarget.textContent = 'Copiar URL'; }, 1800);
+  });
+</script>
 </body>
 </html>

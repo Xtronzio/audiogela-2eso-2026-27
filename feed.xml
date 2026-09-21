@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>AUDIO GELA · 2.º ESO · 2026/27</title>
+    <link>https://xtronzio.github.io/audiogela-2eso-2026-27/</link>
+    <atom:link href="https://xtronzio.github.io/audiogela-2eso-2026-27/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Podcast educativo de 2.º ESO. Explicaciones claras, resúmenes y materiales de repaso para aprender escuchando.</description>
+    <language>es-es</language>
+    <copyright>AUDIO GELA 2026</copyright>
+    <lastBuildDate>Mon, 21 Sep 2026 12:30:00 +0200</lastBuildDate>
+    <generator>AUDIO GELA</generator>
+    <itunes:author>AUDIO GELA</itunes:author>
+    <itunes:summary>Podcast educativo de 2.º ESO para estudiar mediante explicaciones en audio y resúmenes finales.</itunes:summary>
+    <itunes:type>serial</itunes:type>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://xtronzio.github.io/audiogela-2eso-2026-27/portada.jpg" />
+    <itunes:category text="Education">
+      <itunes:category text="Courses" />
+    </itunes:category>
+
+    <item>
+      <title>HISTORIA · U1 · T06 — Nacimiento y expansión del islam</title>
+      <description>Arabia antes del islam, Mahoma, la Hégira, la unificación de la península arábiga, la expansión islámica y los cinco pilares.</description>
+      <content:encoded><![CDATA[<p>Explicación del nacimiento y la expansión del islam, seguida de un resumen con siete ideas fundamentales.</p>]]></content:encoded>
+      <pubDate>Mon, 21 Sep 2026 12:06:00 +0200</pubDate>
+      <guid isPermaLink="false">audiogela-2eso-2026-27-historia-u1-t06</guid>
+      <enclosure url="https://xtronzio.github.io/audiogela-2eso-2026-27/06-historia-u1-nacimiento-expansion-islam.mp3" length="2892096" type="audio/mpeg" />
+      <itunes:episode>6</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>08:02</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>HISTORIA · U1 · T05 — El Imperio carolingio</title>
+      <description>Carlos Martel, Pipino el Breve, Carlomagno, la organización del Imperio y su división tras el Tratado de Verdún.</description>
+      <content:encoded><![CDATA[<p>Explicación del Imperio carolingio y su organización, seguida de un resumen con siete ideas fundamentales.</p>]]></content:encoded>
+      <pubDate>Mon, 21 Sep 2026 12:05:00 +0200</pubDate>
+      <guid isPermaLink="false">audiogela-2eso-2026-27-historia-u1-t05</guid>
+      <enclosure url="https://xtronzio.github.io/audiogela-2eso-2026-27/05-historia-u1-imperio-carolingio.mp3" length="2904912" type="audio/mpeg" />
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>08:04</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>HISTORIA · U1 · T04 — El reino visigodo</title>
+      <description>La llegada de los visigodos a Hispania, el reino de Toledo, la unificación territorial, religiosa y jurídica y su caída en 711.</description>
+      <content:encoded><![CDATA[<p>Explicación del reino visigodo de Toledo, seguida de un resumen con siete ideas fundamentales.</p>]]></content:encoded>
+      <pubDate>Mon, 21 Sep 2026 12:04:00 +0200</pubDate>
+      <guid isPermaLink="false">audiogela-2eso-2026-27-historia-u1-t04</guid>
+      <enclosure url="https://xtronzio.github.io/audiogela-2eso-2026-27/04-historia-u1-reino-visigodo.mp3" length="2708928" type="audio/mpeg" />
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>07:31</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>HISTORIA · U1 · T03 — Los reinos germánicos</title>
+      <description>Los principales reinos germánicos, la herencia romana, la ruralización y el papel de la Iglesia y los monasterios.</description>
+      <content:encoded><![CDATA[<p>Explicación de la transformación de Europa por los reinos germánicos, seguida de un resumen con siete ideas fundamentales.</p>]]></content:encoded>
+      <pubDate>Mon, 21 Sep 2026 12:03:00 +0200</pubDate>
+      <guid isPermaLink="false">audiogela-2eso-2026-27-historia-u1-t03</guid>
+      <enclosure url="https://xtronzio.github.io/audiogela-2eso-2026-27/03-historia-u1-reinos-germanicos.mp3" length="2938896" type="audio/mpeg" />
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>08:10</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>HISTORIA · U1 · T02 — El Imperio bizantino</title>
+      <description>La continuidad del Imperio romano de Oriente, Justiniano, la economía bizantina, la helenización y el Cisma de Oriente.</description>
+      <content:encoded><![CDATA[<p>Explicación del Imperio bizantino, seguida de un resumen con siete ideas fundamentales.</p>]]></content:encoded>
+      <pubDate>Mon, 21 Sep 2026 12:02:00 +0200</pubDate>
+      <guid isPermaLink="false">audiogela-2eso-2026-27-historia-u1-t02</guid>
+      <enclosure url="https://xtronzio.github.io/audiogela-2eso-2026-27/02-historia-u1-imperio-bizantino.mp3" length="2917584" type="audio/mpeg" />
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>08:06</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>HISTORIA · U1 · T01 — Cómo comenzó la Edad Media</title>
+      <description>El Mare Nostrum, la división del Imperio romano, los hunos, los pueblos germánicos y el comienzo de la Edad Media.</description>
+      <content:encoded><![CDATA[<p>Explicación del comienzo de la Edad Media, seguida de un resumen con siete ideas fundamentales.</p>]]></content:encoded>
+      <pubDate>Mon, 21 Sep 2026 12:01:00 +0200</pubDate>
+      <guid isPermaLink="false">audiogela-2eso-2026-27-historia-u1-t01</guid>
+      <enclosure url="https://xtronzio.github.io/audiogela-2eso-2026-27/01-historia-u1-comienzo-edad-media.mp3" length="2951856" type="audio/mpeg" />
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>08:12</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>

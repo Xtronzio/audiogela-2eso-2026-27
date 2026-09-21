@@ -1,0 +1,40 @@
+AUDIO GELA · 2.º ESO · 2026/27
+================================
+
+REPOSITORIO
+https://github.com/Xtronzio/audiogela-2eso-2026-27
+
+1. DESCOMPRIMIR
+Extrae el contenido del archivo ZIP. Debes ver index.html, feed.xml,
+portada.jpg y los seis archivos MP3.
+
+2. SUBIR A GITHUB
+- Abre el repositorio indicado arriba.
+- Pulsa Add file > Upload files.
+- Selecciona TODOS los archivos de esta carpeta, no el ZIP.
+- Pulsa Commit changes.
+
+3. ACTIVAR GITHUB PAGES
+- En el repositorio, abre Settings > Pages.
+- En Source selecciona Deploy from a branch.
+- En Branch selecciona main y /(root).
+- Pulsa Save.
+- Espera unos minutos.
+
+4. COMPROBAR
+Página web:
+https://xtronzio.github.io/audiogela-2eso-2026-27/
+
+Canal del podcast:
+https://xtronzio.github.io/audiogela-2eso-2026-27/feed.xml
+
+5. AÑADIR AL IPAD
+- Abre Podcasts.
+- En la barra lateral entra en Programas.
+- Pulsa los tres puntos.
+- Elige Seguir programa por URL.
+- Pega la dirección del canal indicada arriba.
+- Pulsa Seguir.
+
+Para futuros episodios habrá que subir el nuevo MP3 y sustituir feed.xml
+e index.html por sus versiones actualizadas.

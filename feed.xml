@@ -7,13 +7,13 @@
     <title>AUDIO GELA · 2.º ESO · 2026/27</title>
     <link>https://xtronzio.github.io/audiogela-2eso-2026-27/</link>
     <atom:link href="https://xtronzio.github.io/audiogela-2eso-2026-27/feed.xml" rel="self" type="application/rss+xml" />
-    <description>Podcast educativo de 2.º ESO. Explicaciones claras, resúmenes y materiales de repaso para aprender escuchando.</description>
+    <description>Podcast educativo bilingüe de 2.º ESO. Temporada 1 en castellano y temporada 2 en euskera, con explicaciones claras y resúmenes para aprender escuchando.</description>
     <language>es-es</language>
     <copyright>AUDIO GELA 2026</copyright>
-    <lastBuildDate>Mon, 21 Sep 2026 12:30:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 15:15:00 +0200</lastBuildDate>
     <generator>AUDIO GELA</generator>
     <itunes:author>AUDIO GELA</itunes:author>
-    <itunes:summary>Podcast educativo de 2.º ESO para estudiar mediante explicaciones en audio y resúmenes finales.</itunes:summary>
+    <itunes:summary>Podcast educativo bilingüe de 2.º ESO: temporada 1 en castellano y temporada 2 en euskera.</itunes:summary>
     <itunes:type>serial</itunes:type>
     <itunes:explicit>false</itunes:explicit>
     <itunes:image href="https://xtronzio.github.io/audiogela-2eso-2026-27/portada.jpg" />
@@ -22,7 +22,91 @@
     </itunes:category>
 
     <item>
-      <title>HISTORIA · U1 · T06 — Nacimiento y expansión del islam</title>
+      <title>HISTORIA · EUS · U1 · T06 — Islamaren sorrera eta hedapena</title>
+      <description>Arabia, Mahoma, 622ko Hegira, musulmanen hedapena eta islamaren bost zutabeak.</description>
+      <content:encoded><![CDATA[<p>Islamaren sorrera eta hedapenari buruzko azalpena, amaierako laburpenarekin.</p>]]></content:encoded>
+      <pubDate>Tue, 22 Sep 2026 15:06:00 +0200</pubDate>
+      <guid isPermaLink="false">audiogela-2eso-2026-27-historia-eus-u1-t06</guid>
+      <enclosure url="https://xtronzio.github.io/audiogela-2eso-2026-27/06-historia-eus-u1-islamaren-sorrera-eta-hedapena.mp3" length="4185408" type="audio/mpeg" />
+      <itunes:episode>6</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>08:43</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>HISTORIA · EUS · U1 · T05 — Karolingiar Inperioa</title>
+      <description>Frankoak, Karlos Martel, Pipino Laburra, Karlomagno, antolaketa inperiala eta Verdungo Ituna.</description>
+      <content:encoded><![CDATA[<p>Karolingiar Inperioaren sorrerari, antolaketari eta zatiketari buruzko azalpena.</p>]]></content:encoded>
+      <pubDate>Tue, 22 Sep 2026 15:05:00 +0200</pubDate>
+      <guid isPermaLink="false">audiogela-2eso-2026-27-historia-eus-u1-t05</guid>
+      <enclosure url="https://xtronzio.github.io/audiogela-2eso-2026-27/05-historia-eus-u1-karolingiar-inperioa.mp3" length="4574592" type="audio/mpeg" />
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>09:32</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>HISTORIA · EUS · U1 · T04 — Bisigodoen erresuma</title>
+      <description>Tolosatik Toledora: hiru batasunak, Liber Iudiciorum eta 711ko amaiera.</description>
+      <content:encoded><![CDATA[<p>Bisigodoen erresumaren sorrerari, batasunari eta amaierari buruzko azalpena.</p>]]></content:encoded>
+      <pubDate>Tue, 22 Sep 2026 15:04:00 +0200</pubDate>
+      <guid isPermaLink="false">audiogela-2eso-2026-27-historia-eus-u1-t04</guid>
+      <enclosure url="https://xtronzio.github.io/audiogela-2eso-2026-27/04-historia-eus-u1-bisigodoen-erresuma.mp3" length="4379328" type="audio/mpeg" />
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>09:07</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>HISTORIA · EUS · U1 · T03 — Erresuma germaniarrak</title>
+      <description>Erresuma germaniarren kokapena, erromatar ondarea, landatartzea, Eliza eta monasterioak.</description>
+      <content:encoded><![CDATA[<p>Mendebaldeko Europako erresuma germaniarrei eta haien eraldaketei buruzko azalpena.</p>]]></content:encoded>
+      <pubDate>Tue, 22 Sep 2026 15:03:00 +0200</pubDate>
+      <guid isPermaLink="false">audiogela-2eso-2026-27-historia-eus-u1-t03</guid>
+      <enclosure url="https://xtronzio.github.io/audiogela-2eso-2026-27/03-historia-eus-u1-erresuma-germaniarrak.mp3" length="4418304" type="audio/mpeg" />
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>09:12</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>HISTORIA · EUS · U1 · T02 — Bizantziar Inperioa</title>
+      <description>Ekialdeko Erromatar Inperioaren jarraitutasuna, Justiniano, helenizazioa eta 1054ko Zisma.</description>
+      <content:encoded><![CDATA[<p>Bizantziar Inperioaren bilakaera politiko, ekonomiko, kultural eta erlijiosoari buruzko azalpena.</p>]]></content:encoded>
+      <pubDate>Tue, 22 Sep 2026 15:02:00 +0200</pubDate>
+      <guid isPermaLink="false">audiogela-2eso-2026-27-historia-eus-u1-t02</guid>
+      <enclosure url="https://xtronzio.github.io/audiogela-2eso-2026-27/02-historia-eus-u1-bizantziar-inperioa.mp3" length="4305792" type="audio/mpeg" />
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>08:58</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>HISTORIA · EUS · U1 · T01 — Nola hasi zen Erdi Aroa</title>
+      <description>Mare Nostrum, Erromatar Inperioaren banaketa, hunoak, herri germaniarrak eta Erdi Aroaren hasiera.</description>
+      <content:encoded><![CDATA[<p>Erdi Aroaren hasierari buruzko azalpena, amaierako laburpenarekin.</p>]]></content:encoded>
+      <pubDate>Tue, 22 Sep 2026 15:01:00 +0200</pubDate>
+      <guid isPermaLink="false">audiogela-2eso-2026-27-historia-eus-u1-t01</guid>
+      <enclosure url="https://xtronzio.github.io/audiogela-2eso-2026-27/01-historia-eus-u1-erdi-aroaren-hasiera.mp3" length="4204608" type="audio/mpeg" />
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>2</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>08:46</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+
+    <item>
+      <title>HISTORIA · CAST · U1 · T06 — Nacimiento y expansión del islam</title>
       <description>Arabia antes del islam, Mahoma, la Hégira, la unificación de la península arábiga, la expansión islámica y los cinco pilares.</description>
       <content:encoded><![CDATA[<p>Explicación del nacimiento y la expansión del islam, seguida de un resumen con siete ideas fundamentales.</p>]]></content:encoded>
       <pubDate>Mon, 21 Sep 2026 12:06:00 +0200</pubDate>
@@ -36,7 +120,7 @@
     </item>
 
     <item>
-      <title>HISTORIA · U1 · T05 — El Imperio carolingio</title>
+      <title>HISTORIA · CAST · U1 · T05 — El Imperio carolingio</title>
       <description>Carlos Martel, Pipino el Breve, Carlomagno, la organización del Imperio y su división tras el Tratado de Verdún.</description>
       <content:encoded><![CDATA[<p>Explicación del Imperio carolingio y su organización, seguida de un resumen con siete ideas fundamentales.</p>]]></content:encoded>
       <pubDate>Mon, 21 Sep 2026 12:05:00 +0200</pubDate>
@@ -50,7 +134,7 @@
     </item>
 
     <item>
-      <title>HISTORIA · U1 · T04 — El reino visigodo</title>
+      <title>HISTORIA · CAST · U1 · T04 — El reino visigodo</title>
       <description>La llegada de los visigodos a Hispania, el reino de Toledo, la unificación territorial, religiosa y jurídica y su caída en 711.</description>
       <content:encoded><![CDATA[<p>Explicación del reino visigodo de Toledo, seguida de un resumen con siete ideas fundamentales.</p>]]></content:encoded>
       <pubDate>Mon, 21 Sep 2026 12:04:00 +0200</pubDate>
@@ -64,7 +148,7 @@
     </item>
 
     <item>
-      <title>HISTORIA · U1 · T03 — Los reinos germánicos</title>
+      <title>HISTORIA · CAST · U1 · T03 — Los reinos germánicos</title>
       <description>Los principales reinos germánicos, la herencia romana, la ruralización y el papel de la Iglesia y los monasterios.</description>
       <content:encoded><![CDATA[<p>Explicación de la transformación de Europa por los reinos germánicos, seguida de un resumen con siete ideas fundamentales.</p>]]></content:encoded>
       <pubDate>Mon, 21 Sep 2026 12:03:00 +0200</pubDate>
@@ -78,7 +162,7 @@
     </item>
 
     <item>
-      <title>HISTORIA · U1 · T02 — El Imperio bizantino</title>
+      <title>HISTORIA · CAST · U1 · T02 — El Imperio bizantino</title>
       <description>La continuidad del Imperio romano de Oriente, Justiniano, la economía bizantina, la helenización y el Cisma de Oriente.</description>
       <content:encoded><![CDATA[<p>Explicación del Imperio bizantino, seguida de un resumen con siete ideas fundamentales.</p>]]></content:encoded>
       <pubDate>Mon, 21 Sep 2026 12:02:00 +0200</pubDate>
@@ -92,7 +176,7 @@
     </item>
 
     <item>
-      <title>HISTORIA · U1 · T01 — Cómo comenzó la Edad Media</title>
+      <title>HISTORIA · CAST · U1 · T01 — Cómo comenzó la Edad Media</title>
       <description>El Mare Nostrum, la división del Imperio romano, los hunos, los pueblos germánicos y el comienzo de la Edad Media.</description>
       <content:encoded><![CDATA[<p>Explicación del comienzo de la Edad Media, seguida de un resumen con siete ideas fundamentales.</p>]]></content:encoded>
       <pubDate>Mon, 21 Sep 2026 12:01:00 +0200</pubDate>

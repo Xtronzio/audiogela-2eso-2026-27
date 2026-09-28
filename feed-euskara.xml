@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>AUDIO GELA · 2.º ESO · Euskara</title>
+    <link>https://xtronzio.github.io/audiogela-2eso-2026-27/</link>
+    <atom:link href="https://xtronzio.github.io/audiogela-2eso-2026-27/feed-euskara.xml" rel="self" type="application/rss+xml" />
+    <description>2.º ESOko euskarazko entzungaiak. Irakurketak, errezetak eta ikasgelako ahozko edukiak, argi eta lasai entzuteko.</description>
+    <language>eu</language>
+    <copyright>AUDIO GELA 2026</copyright>
+    <lastBuildDate>Mon, 28 Sep 2026 20:10:00 +0200</lastBuildDate>
+    <generator>AUDIO GELA</generator>
+    <itunes:author>AUDIO GELA</itunes:author>
+    <itunes:summary>2.º ESOko euskarazko entzungaiak: irakurketak, errezetak eta ahozko edukiak.</itunes:summary>
+    <itunes:type>serial</itunes:type>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://xtronzio.github.io/audiogela-2eso-2026-27/portada.jpg" />
+    <itunes:category text="Education">
+      <itunes:category text="Courses" />
+    </itunes:category>
+
+    <item>
+      <title>U1 · T01 — Txokolatezko gailetak etxean nola egin</title>
+      <description>Txokolatezko gailetak etxean egiteko errezetaren irakurketa.</description>
+      <content:encoded><![CDATA[<p>Txokolatezko gailetak etxean egiteko pausoak azaltzen dituen euskarazko irakurketa.</p>]]></content:encoded>
+      <pubDate>Mon, 28 Sep 2026 17:12:00 +0200</pubDate>
+      <guid isPermaLink="false">audiogela-2eso-euskara-u1-t01-txokolatezko-gailetak</guid>
+      <enclosure url="https://xtronzio.github.io/audiogela-2eso-2026-27/01-euskara-errezetak-txokolatezko-gailetak.mp3" length="1195776" type="audio/mpeg" />
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>02:29</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>

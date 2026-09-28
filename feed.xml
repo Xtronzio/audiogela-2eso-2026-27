@@ -4,36 +4,22 @@
   xmlns:content="http://purl.org/rss/1.0/modules/content/"
   xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
-    <title>AUDIO GELA · 2.º ESO · 2026/27</title>
+    <title>AUDIO GELA · 2.º ESO · Historia</title>
     <link>https://xtronzio.github.io/audiogela-2eso-2026-27/</link>
     <atom:link href="https://xtronzio.github.io/audiogela-2eso-2026-27/feed.xml" rel="self" type="application/rss+xml" />
     <description>Podcast educativo bilingüe de 2.º ESO. Temporada 1 en castellano y temporada 2 en euskera, con explicaciones claras y resúmenes para aprender escuchando.</description>
     <language>es-es</language>
     <copyright>AUDIO GELA 2026</copyright>
-    <lastBuildDate>Mon, 28 Sep 2026 17:12:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 20:10:00 +0200</lastBuildDate>
     <generator>AUDIO GELA</generator>
     <itunes:author>AUDIO GELA</itunes:author>
-    <itunes:summary>Podcast educativo bilingüe de 2.º ESO: temporada 1 en castellano y temporada 2 en euskera.</itunes:summary>
+    <itunes:summary>Historia de 2.º ESO en castellano y euskera: explicaciones claras y resúmenes para aprender escuchando.</itunes:summary>
     <itunes:type>serial</itunes:type>
     <itunes:explicit>false</itunes:explicit>
     <itunes:image href="https://xtronzio.github.io/audiogela-2eso-2026-27/portada.jpg" />
     <itunes:category text="Education">
       <itunes:category text="Courses" />
     </itunes:category>
-
-    <item>
-      <title>EUSKARA · EUS · U1 · T01 — Txokolatezko gailetak etxean nola egin</title>
-      <description>Txokolatezko gailetak etxean egiteko errezetaren irakurketa.</description>
-      <content:encoded><![CDATA[<p>Txokolatezko gailetak etxean egiteko pausoak azaltzen dituen euskarazko irakurketa.</p>]]></content:encoded>
-      <pubDate>Mon, 28 Sep 2026 17:12:00 +0200</pubDate>
-      <guid isPermaLink="false">audiogela-2eso-2026-27-euskara-u1-t01-txokolatezko-gailetak</guid>
-      <enclosure url="https://xtronzio.github.io/audiogela-2eso-2026-27/01-euskara-errezetak-txokolatezko-gailetak.mp3" length="1195776" type="audio/mpeg" />
-      <itunes:episode>7</itunes:episode>
-      <itunes:season>2</itunes:season>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:duration>02:29</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-    </item>
 
     <item>
       <title>HISTORIA · EUS · U1 · T06 — Islamaren sorrera eta hedapena</title>

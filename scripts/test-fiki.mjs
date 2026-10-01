@@ -20,7 +20,7 @@ for(const lang of ['cast','eus']){
   for(const [mode,answer,unit] of [['density',2,'g/cm³'],['mass',60,'g'],['volume',30,'cm3']])assert.equal(checkAnswer(makeDensity(mode,2,30,lang),String(answer),unit).correct,true);
   assert.equal(checkAnswer(makeDensity('density',2,500,lang,true),'2','g/cm3').correct,true);
   const p=fixedPractice(lang).find(e=>e.id==='property-5');
-  assert.equal(checkAnswer(p,'característica, cuantitativa e intensiva').correct,false); // unsupported connector must not silently vanish
+  assert.equal(checkAnswer(p,'característica, cuantitativa e intensiva').correct,true);
   assert.equal(checkAnswer(p,'característica, cuantitativa y intensiva').correct,true);
   assert.equal(checkAnswer(p,'kuantitatiboa, intentsiboa eta bereizgarria').correct,true);
   assert.equal(checkAnswer(p,'cuantitativa, intensiva, general').correct,false);

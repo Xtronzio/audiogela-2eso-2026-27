@@ -44,7 +44,7 @@ export function checkAnswer(exercise, answer, answerUnit='') {
       intensiva:'int',intensivo:'int',intentsiboa:'int',intentsibo:'int',
       extensiva:'ext',extensivo:'ext',estentsiboa:'ext',estentsibo:'ext',
       general:'gen',orokorra:'gen',orokor:'gen',caracteristica:'char',caracteristico:'char',bereizgarria:'char',bereizgarri:'char'};
-    const tokens=String(answer).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').split(/[^a-z]+/).filter(v=>v && !['y','eta'].includes(v));
+    const tokens=String(answer).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').split(/[^a-z]+/).filter(v=>v && !['y','e','eta'].includes(v));
     const mapped=tokens.map(v=>aliases[v]);
     const expected=exercise.tags;
     return {submitted:true,correct:mapped.length===3 && mapped.every(v=>v && expected.includes(v)) && new Set(mapped).size===3};

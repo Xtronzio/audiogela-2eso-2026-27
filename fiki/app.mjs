@@ -16,9 +16,10 @@ let quiz=[], exercises=[], checked=new Map(),previous=[];
 
 function navigate(next){section=next;params.set('section',next);history.replaceState(null,'',`${page}?${params}`);render();}
 function render(){
-  $('#tabs').innerHTML=Object.entries(tabNames).map(([key,label])=>`<a href="${page}?section=${key}&topic=${topic}" ${key===section?'aria-current="page"':''} data-section="${key}">${label}</a>`).join('');
+  const currentTopic=params.get('topic')==='all'?'all':topic;
+  $('#tabs').innerHTML=Object.entries(tabNames).map(([key,label])=>`<a href="${page}?section=${key}&topic=${currentTopic}" ${key===section?'aria-current="page"':''} data-section="${key}">${label}</a>`).join('');
   document.querySelectorAll('[data-section]').forEach(link=>link.addEventListener('click',event=>{event.preventDefault();navigate(link.dataset.section);}));
-  $('#language-link').href=`fiki-u1-${cast?'eus':'cast'}.html?section=${section}&topic=${topic}`;
+  $('#language-link').href=`fiki-u1-${cast?'eus':'cast'}.html?section=${section}&topic=${currentTopic}`;
   if(section==='theory')renderTheory();
   else if(section==='quiz')renderQuiz();
   else renderPractice(section==='sheet');
@@ -73,9 +74,16 @@ function gradeQuiz(event){
 function renderPractice(sheet=false){
   checked=new Map();previous=[];
   $('#content').innerHTML=`<section class="panel"><h2>${sheet?t('Ficha de trabajo','Lan fitxa'):t('Ejercicios con corrección','Zuzenketa duten ariketak')}</h2><p class="muted">${t('Escribe tu respuesta y pulsa Comprobar. Después verás si es correcta, el resultado y el razonamiento.','Idatzi erantzuna eta sakatu Egiaztatu. Ondoren, zuzentasuna, emaitza eta arrazoibidea ikusiko dituzu.')}</p>${sheet?`<div class="sheet-heading"><label>${t('Nombre','Izena')}<input aria-label="${t('Nombre','Izena')}" autocomplete="off"></label></div>`:''}<div class="controls"><label for="practice-topic">${t('Bloque','Blokea')}<select id="practice-topic"><option value="all">${t('Toda la unidad','Unitate osoa')}</option>${course.topics.map((v,i)=>`<option value="${i}">${i+1}. ${v.title}</option>`).join('')}</select></label><label for="practice-style">${t('Ejercicios','Ariketak')}<select id="practice-style"><option value="book">${t('Del temario y repaso','Temariokoak eta errepasoa')}</option><option value="new">${t('Practicar con otros datos','Beste datu batzuekin landu')}</option></select></label><button class="button" id="new-practice">${t('Otra tanda','Beste sorta bat')}</button>${sheet?`<button class="button secondary" id="print-sheet">${t('Imprimir / guardar PDF','Inprimatu / PDF gorde')}</button>`:''}</div><p class="note small">${t('Números: coma o punto decimal, espacios para miles y notación científica (8e4 o 8×10^4). Escribe la unidad solicitada: cm3 y cm³ son equivalentes. Las soluciones aparecen al enviar una respuesta completa.','Zenbakiak: koma edo puntu hamartarra, espazioak milakoetarako eta notazio zientifikoa (8e4 edo 8×10^4). Idatzi eskatutako unitatea: cm3 eta cm³ baliokideak dira. Erantzun osoa bidaltzean agertzen dira soluzioak.')}</p>${sheet?`<p class="small muted no-print">${t('Puedes imprimir la ficha en blanco. Para imprimir las soluciones, responde y comprueba cada ejercicio primero.','Fitxa hutsik inprima dezakezu. Soluzioak inprimatzeko, erantzun eta egiaztatu ariketa bakoitza lehenik.')}</p>`:''}</section><p id="progress" role="status"></p><div id="exercise-list"></div>`;
-  $('#practice-topic').value=sheet?'all':String(topic);
+  $('#practice-topic').value=sheet||params.get('topic')==='all'?'all':String(topic);
   $('#new-practice').onclick=()=>newPractice();
-  $('#practice-topic').onchange=()=>{previous=[];newPractice();};$('#practice-style').onchange=()=>{previous=[];newPractice();};
+  $('#practice-topic').onchange=()=>{
+    const selected=$('#practice-topic').value;
+    if(selected!=='all')topic=Number(selected);
+    params.set('topic',selected);history.replaceState(null,'',`${page}?${params}`);
+    $('#language-link').href=`fiki-u1-${cast?'eus':'cast'}.html?section=${section}&topic=${selected}`;
+    document.querySelectorAll('[data-section]').forEach(link=>link.href=`${page}?section=${link.dataset.section}&topic=${selected}`);
+    previous=[];newPractice();
+  };$('#practice-style').onchange=()=>{previous=[];newPractice();};
   if(sheet)$('#print-sheet').onclick=()=>window.print();newPractice();
 }
 function newPractice(){

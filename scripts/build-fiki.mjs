@@ -32,7 +32,7 @@ let html=readFileSync(root+'index.html','utf8');
 // Idempotent managed section; history content and history feeds are preserved.
 html=html.replace(/\n?<!-- FIKI BEGIN -->[\s\S]*?<!-- FIKI END -->\n?/,'\n');
 const fiki=`<!-- FIKI BEGIN -->
-<details class="subject remember" id="asignatura-fiki" open style="margin-top:18px">
+<details class="subject remember" id="asignatura-fiki" style="margin-top:18px">
 <summary class="subject-summary"><span class="subject-icon" aria-hidden="true">FQ</span><span class="summary-copy"><strong>Física y Química · FIKI</strong><span>Unidad 1 · Materia y medida · 2 idiomas</span></span><span class="summary-count">8 audios disponibles</span><span class="chevron" aria-hidden="true"></span></summary>
 <div class="subject-body">${['cast','eus'].map(lang=>{
   const cast=lang==='cast',data=unit[lang],t=(es,eu)=>cast?es:eu;
@@ -41,25 +41,13 @@ const fiki=`<!-- FIKI BEGIN -->
     return `<details class="episode" id="fiki-${lang}-u1-t${i+1}"><summary class="episode-summary"><span class="episode-number">T0${i+1}</span><span class="summary-copy"><strong>${v.title}</strong><span>${v.summary}</span></span><span class="duration">${durations[file].label}</span><span class="chevron" aria-hidden="true"></span></summary><div class="episode-body"><p>${v.summary}</p><audio controls preload="none" aria-label="${v.title}" src="${file}"></audio><div class="resources"><a class="resource primary" href="fiki-u1-${lang}.html?section=theory&topic=${i}">${t('Teoría y audio','Teoria eta audioa')}</a><a class="resource" href="fiki-u1-${lang}.html?section=quiz&topic=${i}">${t('Autoevaluación de la unidad','Unitatearen autoebaluazioa')}</a><a class="resource" href="fiki-u1-${lang}.html?section=practice&topic=${i}">${t('Ejercicios de este bloque','Bloke honetako ariketak')}</a><a class="resource" href="fiki-u1-${lang}.html?section=sheet&topic=${i}">${t('Ficha imprimible','Fitxa inprimagarria')}</a><span class="resource-note">${t('Escribe tu respuesta; al comprobar se muestran el resultado y los pasos.','Idatzi erantzuna; egiaztatzean emaitza eta urratsak agertzen dira.')}</span></div></div></details>`;
   }).join('')}</div></details></div></details>`;
 }).join('')}
-<p style="color:var(--muted);line-height:1.6">Podcast propio de FIKI · <a href="feed-fiki.xml">RSS en castellano y euskera</a>. Para añadirlo en Apple Podcasts: Biblioteca → ··· → Seguir un programa por URL.</p><div class="copy-row"><input class="feed-url" id="feed-fiki-url" aria-label="URL del podcast de FIKI" readonly value="${base}feed-fiki.xml"><button class="copy-button" id="copy-fiki" type="button">Copiar URL FIKI</button></div>
 </div></details>
 <!-- FIKI END -->`;
 html=html.replace('  </section>',fiki+'\n  </section>');
-if(!html.includes('id="subject-picker"'))html=html.replace('  <section aria-label="Catálogo de asignaturas">','  <nav class="resources" id="subject-picker" aria-label="Elegir asignatura" style="margin:0 0 18px"><a class="resource" href="#asignatura-historia">Historia</a><a class="resource primary" href="#asignatura-fiki">Física y Química · FIKI</a></nav>\n  <section aria-label="Catálogo de asignaturas">');
-if(!html.includes('/* FIKI navigation */'))html=html.replace('</script>',`/* FIKI navigation */
-  function openSubjectFromHash(){
-    const target=document.getElementById(location.hash.slice(1));
-    if(!target || !target.matches('details.subject'))return;
-    document.querySelectorAll('details.subject').forEach(item=>item.open=item===target);
-  }
-  window.addEventListener('hashchange',openSubjectFromHash);openSubjectFromHash();
-  document.getElementById('copy-fiki').addEventListener('click',async(event)=>{
-    const button=event.currentTarget,input=document.getElementById('feed-fiki-url');
-    try{await navigator.clipboard.writeText(input.value);button.textContent='Copiada';}
-    catch{input.select();button.textContent='Selecciona y copia';}
-    setTimeout(()=>button.textContent='Copiar URL FIKI',1800);
-  });
-</script>`);
+const picker='<nav class="resources" id="subject-picker" aria-label="Elegir asignatura" style="margin:0 0 18px"><a class="resource" href="#asignatura-historia">Historia · GIZA</a><a class="resource" href="#asignatura-fiki">Física y Química · FIKI</a></nav>';
+if(html.includes('id="subject-picker"'))html=html.replace(/<nav[^>]*id="subject-picker"[^>]*>[\s\S]*?<\/nav>/,picker);
+else html=html.replace('  <section aria-label="Catálogo de asignaturas">',picker+'\n  <section aria-label="Catálogo de asignaturas">');
+html=html.replace('<strong>Historia</strong>','<strong>Historia · GIZA</strong>');
 html=html.replace('7 audios disponibles','12 audios disponibles');
 if(!html.includes('title="AUDIO GELA · FIKI"'))html=html.replace('<style>','<link rel="alternate" type="application/rss+xml" title="AUDIO GELA · FIKI" href="feed-fiki.xml">\n  <style>');
 writeFileSync(root+'index.html',html);

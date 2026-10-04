@@ -42,7 +42,7 @@ for(const lang of ['cast','eus']){
   }
   const first=practiceSet(lang,2,'new'),second=practiceSet(lang,2,'new',first.map(e=>e.id));assert.ok(second.every(e=>!first.some(f=>f.id===e.id)));
 }
-console.log('PASS · parsing, units, 15 original conversions, density, classification, 800 questions, disjoint rounds and varied practice.');
+console.log('PASS · parsing, units, 15 conversion checks, density, classification, 800 questions, disjoint rounds and varied practice.');
 
 const expectedCounts=[28,22,14,10];
 function answerFor(field){

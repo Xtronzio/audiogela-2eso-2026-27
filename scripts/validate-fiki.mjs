@@ -21,6 +21,9 @@ for(const lang of ['cast','eus'])for(let topic=0;topic<4;topic++){
  assert.ok(!html.includes('HISTORIA'));
  for(const script of html.matchAll(/<script>([\s\S]*?)<\/script>/g))new vm.Script(script[1]);
  const sheet=fs.readFileSync(`ficha-fiki-u1-b${topic+1}-${lang}.html`,'utf8');
+ const printablePrompts=bank.flatMap((level,l)=>[0,1,2,3,4].map(offset=>level.preguntas[(l*4+offset)%20][0]));
+ const printableConcepts=printablePrompts.map(prompt=>authored.find(q=>q.prompt===prompt).id.split('-q')[1]);
+ assert.equal(new Set(printableConcepts).size,20);
  assert.ok(sheet.includes('id="solutions"'));assert.ok(!sheet.includes('HISTORIA'));
 }
 const python=`

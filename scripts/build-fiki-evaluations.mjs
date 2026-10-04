@@ -24,7 +24,7 @@ for(const lang of ['cast','eus'])for(let topic=0;topic<4;topic++){
  let sheet=read(`ficha-historia-u1-t01-${lang}.html`);
  sheet=sheet.replaceAll(eu?'Nola hasi zen Erdi Aroa':'Cómo comenzó la Edad Media',esc(title)).replaceAll('HISTORIA','FIKI').replaceAll('T01',`B0${topic+1}`).replace(/href="index.html#[^"]+"/,`href="index.html#fiki-${lang}-u1-t${topic+1}"`);
  sheet=sheet.replace(/<div class="instructions">[\s\S]*?<\/div>/,`<div class="instructions">${eu?'25 jarduera, bost mailak uztartuta. Aukeratu erantzun zuzena eta justifikatu esaldi osoekin. Galdera guztiak bloke honetakoak dira. Soluzioak aparte daude.':'25 actividades que combinan los cinco niveles. Elige la respuesta correcta y justifícala con frases completas. Todas las preguntas pertenecen a este bloque. Las soluciones están separadas.'}</div>`);
- const selected=levels.flatMap(level=>[0,4,8,12,16].map(index=>({level:level.nivel,q:level.preguntas[index]})));
+ const selected=levels.flatMap((level,l)=>[0,1,2,3,4].map(offset=>({level:level.nivel,q:level.preguntas[(l*4+offset)%20]})));
  const questions=selected.map(({level,q})=>`<li><small>${eu?'Maila':'Nivel'} ${level}</small> · ${esc(q[0])}<ul>${q[1].map((option,j)=>`<li>${'ABCD'[j]}. ${esc(option)}</li>`).join('')}</ul><div class="write large"></div></li>`).join('\n');
  const solutions=selected.map(({q})=>`<li><strong>${'ABCD'[q[2]]}. ${esc(q[1][q[2]])}.</strong> ${esc(q[3])}</li>`).join('\n');
  sheet=sheet.replace(/<ol class="questions">[\s\S]*?<\/ol>/,`<ol class="questions">${questions}</ol>`);

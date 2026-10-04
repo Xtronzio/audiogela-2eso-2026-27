@@ -1,0 +1,386 @@
+{
+  "fiki-u1-01-cast-r2.mp3": {
+    "voice": "es-ES-ElviraNeural",
+    "text_language": "cast",
+    "rate": "-5%",
+    "text_sha256": "60627934b0b9dee315f8aeee8c4910d943eee34eb860c50e8a4b809805b5faaa",
+    "segments": [
+      {
+        "words": 15,
+        "seconds": 10.632
+      },
+      {
+        "words": 56,
+        "seconds": 27.312
+      },
+      {
+        "words": 54,
+        "seconds": 23.328
+      },
+      {
+        "words": 83,
+        "seconds": 34.536
+      },
+      {
+        "words": 88,
+        "seconds": 34.128
+      },
+      {
+        "words": 58,
+        "seconds": 24.12
+      },
+      {
+        "words": 47,
+        "seconds": 25.752
+      },
+      {
+        "words": 106,
+        "seconds": 47.28
+      }
+    ],
+    "seconds": 227.136,
+    "bytes": 1363147
+  },
+  "fiki-u1-02-cast-r2.mp3": {
+    "voice": "es-ES-ElviraNeural",
+    "text_language": "cast",
+    "rate": "-5%",
+    "text_sha256": "e566efb0f908d3e73b256761c80d33014aad0c3c2df8e7751f4c2400c751ba1e",
+    "segments": [
+      {
+        "words": 15,
+        "seconds": 10.704
+      },
+      {
+        "words": 44,
+        "seconds": 22.512
+      },
+      {
+        "words": 56,
+        "seconds": 25.152
+      },
+      {
+        "words": 57,
+        "seconds": 26.808
+      },
+      {
+        "words": 58,
+        "seconds": 29.376
+      },
+      {
+        "words": 62,
+        "seconds": 32.952
+      },
+      {
+        "words": 69,
+        "seconds": 32.424
+      },
+      {
+        "words": 49,
+        "seconds": 18.984
+      },
+      {
+        "words": 42,
+        "seconds": 16.992
+      },
+      {
+        "words": 102,
+        "seconds": 52.008
+      }
+    ],
+    "seconds": 267.96,
+    "bytes": 1608096
+  },
+  "fiki-u1-03-cast-r2.mp3": {
+    "voice": "es-ES-ElviraNeural",
+    "text_language": "cast",
+    "rate": "-5%",
+    "text_sha256": "fe1a1d2c0e9d8cc98e88aa8f77b01a51a28e7cfd6e06d2c2c262f85d56c6287f",
+    "segments": [
+      {
+        "words": 14,
+        "seconds": 10.776
+      },
+      {
+        "words": 57,
+        "seconds": 24.888
+      },
+      {
+        "words": 87,
+        "seconds": 41.016
+      },
+      {
+        "words": 69,
+        "seconds": 31.32
+      },
+      {
+        "words": 61,
+        "seconds": 25.344
+      },
+      {
+        "words": 45,
+        "seconds": 20.064
+      },
+      {
+        "words": 82,
+        "seconds": 36.0
+      },
+      {
+        "words": 56,
+        "seconds": 21.936
+      },
+      {
+        "words": 40,
+        "seconds": 17.472
+      },
+      {
+        "words": 89,
+        "seconds": 42.792
+      }
+    ],
+    "seconds": 271.656,
+    "bytes": 1630269
+  },
+  "fiki-u1-04-cast-r2.mp3": {
+    "voice": "es-ES-ElviraNeural",
+    "text_language": "cast",
+    "rate": "-5%",
+    "text_sha256": "f9652218e8b3fc73924dd4129513409b82667b17ffd61b451574256103ad70f4",
+    "segments": [
+      {
+        "words": 13,
+        "seconds": 10.416
+      },
+      {
+        "words": 43,
+        "seconds": 18.408
+      },
+      {
+        "words": 58,
+        "seconds": 22.152
+      },
+      {
+        "words": 63,
+        "seconds": 28.824
+      },
+      {
+        "words": 84,
+        "seconds": 39.072
+      },
+      {
+        "words": 60,
+        "seconds": 25.776
+      },
+      {
+        "words": 72,
+        "seconds": 25.896
+      },
+      {
+        "words": 88,
+        "seconds": 34.416
+      },
+      {
+        "words": 54,
+        "seconds": 20.568
+      },
+      {
+        "words": 107,
+        "seconds": 49.848
+      }
+    ],
+    "seconds": 275.424,
+    "bytes": 1652872
+  },
+  "fiki-u1-01-eus-r2.mp3": {
+    "voice": "es-ES-ElviraNeural",
+    "text_language": "eus",
+    "rate": "-5%",
+    "text_sha256": "9e88c74e68423bab2cc5fa822068b1a94ecd72b27ecd029ed87079557059c5a7",
+    "segments": [
+      {
+        "words": 13,
+        "seconds": 11.568
+      },
+      {
+        "words": 50,
+        "seconds": 28.92
+      },
+      {
+        "words": 43,
+        "seconds": 23.616
+      },
+      {
+        "words": 68,
+        "seconds": 36.288
+      },
+      {
+        "words": 72,
+        "seconds": 37.344
+      },
+      {
+        "words": 52,
+        "seconds": 25.632
+      },
+      {
+        "words": 46,
+        "seconds": 27.744
+      },
+      {
+        "words": 95,
+        "seconds": 54.264
+      }
+    ],
+    "seconds": 245.424,
+    "bytes": 1472882
+  },
+  "fiki-u1-02-eus-r2.mp3": {
+    "voice": "es-ES-ElviraNeural",
+    "text_language": "eus",
+    "rate": "-5%",
+    "text_sha256": "730bdb1a10e1c35d2015f82bfdedca356644091c3a991f3c2664f354a7d42b8d",
+    "segments": [
+      {
+        "words": 11,
+        "seconds": 11.304
+      },
+      {
+        "words": 42,
+        "seconds": 25.056
+      },
+      {
+        "words": 53,
+        "seconds": 30.456
+      },
+      {
+        "words": 45,
+        "seconds": 29.304
+      },
+      {
+        "words": 45,
+        "seconds": 30.624
+      },
+      {
+        "words": 51,
+        "seconds": 36.072
+      },
+      {
+        "words": 56,
+        "seconds": 36.336
+      },
+      {
+        "words": 41,
+        "seconds": 21.672
+      },
+      {
+        "words": 35,
+        "seconds": 21.504
+      },
+      {
+        "words": 89,
+        "seconds": 57.984
+      }
+    ],
+    "seconds": 300.36,
+    "bytes": 1802494
+  },
+  "fiki-u1-03-eus-r2.mp3": {
+    "voice": "es-ES-ElviraNeural",
+    "text_language": "eus",
+    "rate": "-5%",
+    "text_sha256": "c5fdf326bfb671bcb00a35793e73f75e000764ddd3001d120f49a9f3217a56b5",
+    "segments": [
+      {
+        "words": 13,
+        "seconds": 11.808
+      },
+      {
+        "words": 44,
+        "seconds": 25.968
+      },
+      {
+        "words": 63,
+        "seconds": 38.712
+      },
+      {
+        "words": 58,
+        "seconds": 33.744
+      },
+      {
+        "words": 51,
+        "seconds": 25.56
+      },
+      {
+        "words": 37,
+        "seconds": 20.832
+      },
+      {
+        "words": 73,
+        "seconds": 37.248
+      },
+      {
+        "words": 47,
+        "seconds": 24.336
+      },
+      {
+        "words": 33,
+        "seconds": 20.28
+      },
+      {
+        "words": 76,
+        "seconds": 48.192
+      }
+    ],
+    "seconds": 286.728,
+    "bytes": 1720711
+  },
+  "fiki-u1-04-eus-r2.mp3": {
+    "voice": "es-ES-ElviraNeural",
+    "text_language": "eus",
+    "rate": "-5%",
+    "text_sha256": "1f9846137fcde3520be7168cab7555858b678fbfb8e5b02627ba612593ced1f2",
+    "segments": [
+      {
+        "words": 12,
+        "seconds": 11.448
+      },
+      {
+        "words": 35,
+        "seconds": 19.944
+      },
+      {
+        "words": 44,
+        "seconds": 21.36
+      },
+      {
+        "words": 50,
+        "seconds": 29.472
+      },
+      {
+        "words": 78,
+        "seconds": 42.576
+      },
+      {
+        "words": 47,
+        "seconds": 28.584
+      },
+      {
+        "words": 60,
+        "seconds": 33.984
+      },
+      {
+        "words": 69,
+        "seconds": 37.848
+      },
+      {
+        "words": 46,
+        "seconds": 24.12
+      },
+      {
+        "words": 97,
+        "seconds": 58.968
+      }
+    ],
+    "seconds": 308.352,
+    "bytes": 1850448
+  }
+}

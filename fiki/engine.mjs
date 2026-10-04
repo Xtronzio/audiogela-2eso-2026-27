@@ -1,4 +1,4 @@
-import {properties} from './u1-data.mjs';
+import {properties} from './u1-data.mjs?v=20261004-r2';
 
 export function parseNumber(raw) {
   let value = String(raw).trim().replace(/\u2212/g,'-').replace(/[\s\u00a0\u202f]/g,'');
@@ -30,6 +30,17 @@ export function normalizeUnit(value) {
 export const fmt = number => Number(number.toPrecision(11)).toLocaleString('es-ES',{useGrouping:false,maximumFractionDigits:12});
 const clean = value => String(value).trim().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]/g,'');
 export function checkAnswer(exercise, answer, answerUnit='') {
+  if(exercise.kind==='multi'){
+    const results=exercise.fields.map(field=>{
+      const value=answer?.[field.id]||{};
+      if(field.kind==='property-choice' && String(value.answer||'').split(',').filter(Boolean).length!==3)return {submitted:false,reason:'empty'};
+      return checkAnswer(field.kind==='property-choice'?{...field,kind:'property'}:field,value.answer||'',value.unit||'');
+    });
+    const invalid=results.find(result=>!result.submitted);
+    if(invalid)return {...invalid,results};
+    return {submitted:true,correct:results.every(result=>result.correct),results};
+  }
+
   if (!String(answer).trim() || (exercise.kind==='number' && !String(answerUnit).trim())) return {submitted:false,reason:'empty'};
   if (exercise.kind==='number') {
     const number = parseNumber(answer);
@@ -45,6 +56,7 @@ export function checkAnswer(exercise, answer, answerUnit='') {
       extensiva:'ext',extensivo:'ext',estentsiboa:'ext',estentsibo:'ext',
       general:'gen',orokorra:'gen',orokor:'gen',caracteristica:'char',caracteristico:'char',bereizgarria:'char',bereizgarri:'char'};
     const tokens=String(answer).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').split(/[^a-z]+/).filter(v=>v && !['y','e','eta'].includes(v));
+    if(tokens.length<3)return {submitted:false,reason:'empty'};
     const mapped=tokens.map(v=>aliases[v]);
     const expected=exercise.tags;
     return {submitted:true,correct:mapped.length===3 && mapped.every(v=>v && expected.includes(v)) && new Set(mapped).size===3};

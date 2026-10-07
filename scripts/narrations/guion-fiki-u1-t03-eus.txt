@@ -1,0 +1,19 @@
+AUDIO GELA. Fisika eta Kimika. Bigarren maila. Lehenengo unitatea. Neurtzea eta unitateak bihurtzea.
+
+Magnitudea neurtu daitekeen propietatea da. Neurtzea erreferentzia unitate batekin alderatzea da. Neurri oso batek zenbaki bat eta unitate bat ditu. Bost esatea ez da nahikoa; bost metro esateak luzera adierazten du. Tresna egokia aukeratzen dugu: erregela luzerarako, balantza masarako, kronometroa denborarako eta termometroa tenperaturarako.
+
+Nazioarteko Sistemak neurriak unitate komunekin adierazteko balio du. Oinarrizko zazpi unitateak hauek dira: metroa luzerarako, kilogramoa masarako, segundoa denborarako, kelvina tenperaturarako, amperea korronte elektrikoaren intentsitaterako, mola substantzia kantitaterako eta kandela argi intentsitaterako. Kelvinaren ikurra K da, gradu ikurrik gabe. Ikurrek ez dute pluralik. Bolumena, azalera eta dentsitatea magnitude eratorriak dira. Nazioarteko Sisteman metro kubiko, metro karratu eta kilogramo metro kubikoko unitateetan adierazten dira.
+
+Bihurketetarako kilo, hekto, deka, unitatea, dezi, zenti eta mili erabiliko ditugu. Luzera, masa edo edukieraren eskalan, unitate txikiago batera urrats bat egitean hamarrez biderkatzen dugu. Handiago batera joatean, hamarrez zatitzen dugu. Kilogramotik gramora hiru urrats daude: milaz biderkatzen dugu. Kilogramotik miligramora sei urrats daude: milioi batez biderkatzen dugu. Beraz, zero koma zero zortzi kilogramo laurogei mila miligramo dira.
+
+Azaleretan, urrats bakoitzean ehunez biderkatzen edo zatitzen dugu. Metro karratu batean hamar mila zentimetro karratu daude. Metro batek ehun zentimetro ditu eta ehun bider ehun hamar mila da. Zortzi mila laurehun eta berrogeita hamasei zentimetro karratu zero koma zortzi lau bost sei metro karratu dira. Ez erabili luzerarako faktorea azalerak bihurtzeko.
+
+Bolumen kubikoetan, urrats bakoitzean milaz biderkatzen edo zatitzen dugu. Metro kubiko bat mila dezimetro kubiko eta milioi bat zentimetro kubiko dira. Eskalak hiru dimentsio ditu. Ez nahastu metroa, metro karratua eta metro kubikoa: magnitude desberdinak neurtzen dituzte.
+
+Litroa egunero erabiltzen dugun edukiera unitatea da. Litro bat dezimetro kubiko baten berdina da, zehazki. Mililitro bat zentimetro kubiko bat da. Metro kubiko bat mila litro da. Horrela, zortziehun eta hirurogeita hamabost mililitro zero koma zortzi zazpi bost dezimetro kubiko dira. Dekametro kubikoetatik litroetara pasatzeko, lehenik metro kubikoetara pasa gaitezke eta gero litroetara. Zazpi koma bost dekametro kubiko zazpi mila eta bostehun metro kubiko dira, hau da, zazpi milioi eta bostehun mila litro.
+
+Neurriak ordenatzeko, bihurtu denak unitate berera alderatu aurretik. Zortzi koma bi dekametro laurogeita bi metro dira. Berrehun eta berrogeita hamalau zentimetro bi koma bost lau metro dira. Zero koma zero zero zero hiru kilometro zero koma hiru metro dira. Lehenengoa da handiena, gero bigarrena eta azkenik hirugarrena.
+
+Ariketa bakoitzean idatzi baliokidetasuna, kalkulatu eta jarri azken unitatea. Egiaztatu zenbakia handitu edo txikitu behar den. Unitate txikiagoa erabiltzean, unitate gehiago behar ditugu kantitate bera adierazteko. Unitatea aldatzeak ez du benetako kantitatea aldatzen.
+
+Hirugarren blokearen laburpena. Magnitudea neurtu daiteke. Neurriak zenbakia eta unitatea ditu. Unitate linealetan eta litroetan, urrats bakoitzeko faktorea hamar da; azaleretan, ehun; bolumen kubikoetan, mila. Litro bat dezimetro kubiko bat da, eta mililitro bat zentimetro kubiko bat. Ahozko azterketa: gelditu eta erantzun. Zein da masaren oinarrizko unitatea? Zer tresnak neurtzen du tenperatura? Zergatik ez da azalera luzera bezala bihurtzen? Zer egiten duzu unitate desberdinak ordenatu aurretik? Egiaztatu: kilogramoa, termometroa, bi dimentsio eta denak unitate berera bihurtzea.

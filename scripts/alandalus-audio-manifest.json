@@ -74,77 +74,91 @@
     "bytes": 3486168
   },
   "eus": {
-    "file": "07-historia-eus-u1-al-andalus.mp3",
-    "voice": "es-ES-XimenaNeural",
-    "text_sha256": "0fb8c56670d2df06be02db4fda706a78ac88c26b05e196c53d27baa0eb099ab4",
+    "file": "07-historia-eus-u1-al-andalus-google-r2.mp3",
+    "voice": "Google TTS · eu",
+    "language": "eu",
+    "text_sha256": "63c5004fbde84ee854259798e74a4ea0933bb4c07e081fc8fde7a19c17d78053",
     "paragraphs": [
       {
         "paragraph": 1,
         "words": 51,
-        "seconds": 35.544
+        "chunks": 15,
+        "seconds": 32.04
       },
       {
         "paragraph": 2,
         "words": 69,
-        "seconds": 38.856
+        "chunks": 12,
+        "seconds": 37.8
       },
       {
         "paragraph": 3,
         "words": 68,
-        "seconds": 40.368
+        "chunks": 14,
+        "seconds": 40.224
       },
       {
         "paragraph": 4,
         "words": 76,
-        "seconds": 44.976
+        "chunks": 15,
+        "seconds": 44.376
       },
       {
         "paragraph": 5,
         "words": 92,
-        "seconds": 56.424
+        "chunks": 20,
+        "seconds": 53.904
       },
       {
         "paragraph": 6,
         "words": 114,
-        "seconds": 64.488
+        "chunks": 21,
+        "seconds": 61.248
       },
       {
         "paragraph": 7,
         "words": 89,
-        "seconds": 52.104
+        "chunks": 20,
+        "seconds": 50.712
       },
       {
         "paragraph": 8,
         "words": 84,
-        "seconds": 51.504
+        "chunks": 15,
+        "seconds": 51.84
       },
       {
         "paragraph": 9,
         "words": 81,
-        "seconds": 47.976
+        "chunks": 19,
+        "seconds": 47.184
       },
       {
         "paragraph": 10,
         "words": 91,
+        "chunks": 17,
         "seconds": 54.888
       },
       {
         "paragraph": 11,
         "words": 77,
-        "seconds": 46.512
+        "chunks": 21,
+        "seconds": 46.848
       },
       {
         "paragraph": 12,
         "words": 87,
-        "seconds": 55.224
+        "chunks": 18,
+        "seconds": 52.752
       },
       {
         "paragraph": 13,
         "words": 75,
-        "seconds": 48.216
+        "chunks": 21,
+        "seconds": 45.192
       }
     ],
-    "seconds": 637.128,
-    "bytes": 3823127
+    "seconds": 619.056,
+    "bytes": 3714648
   }
 }

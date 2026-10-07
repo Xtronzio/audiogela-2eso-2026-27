@@ -1,0 +1,19 @@
+AUDIO GELA. Física y Química. Segundo de ESO. Unidad uno. Densidad y flotación.
+
+¿Qué tiene más masa, un kilogramo de hierro o mil gramos de plumas? Tienen la misma masa. Lo que cambia es el volumen que ocupan. Las plumas ocupan mucho más espacio. Para comparar cuánto material hay en un mismo volumen usamos la densidad.
+
+La densidad es la masa dividida entre el volumen: densidad igual a masa entre volumen. Si dos cajas tienen el mismo volumen y una contiene cinco kilogramos mientras la otra contiene cero coma dos, la primera tiene veinticinco veces más densidad media. Si solo conocemos las masas y no los volúmenes, no podemos decidir cuál tiene más densidad.
+
+La densidad es cuantitativa, intensiva y característica. En una sustancia homogénea, bajo las mismas condiciones, no cambia por tomar una muestra mayor. Al duplicar masa y volumen a la vez, el cociente se mantiene. La unidad del Sistema Internacional es el kilogramo por metro cúbico. También usaremos gramos por centímetro cúbico. Un gramo por centímetro cúbico equivale a mil kilogramos por metro cúbico.
+
+Vamos a calcular. Una muestra tiene cuarenta gramos de masa y veinte centímetros cúbicos de volumen. Dividimos cuarenta entre veinte: su densidad es dos gramos por centímetro cúbico. Si conocemos densidad y volumen, multiplicamos: masa igual a densidad por volumen. Una sustancia de densidad dos gramos por centímetro cúbico que ocupa treinta centímetros cúbicos tiene sesenta gramos de masa. Si conocemos masa y densidad, dividimos: volumen igual a masa entre densidad. Sesenta gramos divididos entre dos gramos por centímetro cúbico dan treinta centímetros cúbicos.
+
+Antes de operar, revisa las unidades. No dividas sin más una masa en kilogramos entre un volumen en centímetros cúbicos si te piden gramos por centímetro cúbico. Convierte la masa a gramos, o transforma ambas magnitudes a las unidades del Sistema Internacional. Un kilogramo y quinientos centímetros cúbicos corresponden a mil gramos divididos entre quinientos: dos gramos por centímetro cúbico.
+
+La flotación depende de comparar la densidad media del objeto con la del fluido. En un modelo sencillo, un objeto menos denso que el agua flota y uno más denso se hunde. Si tienen igual densidad, puede quedar suspendido. El hielo es menos denso que el agua líquida y por eso flota. El aceite habitual es menos denso que el agua; además, no se mezcla con ella, de modo que queda encima.
+
+El principio de Arquímedes explica el empuje. Todo cuerpo total o parcialmente sumergido en un fluido recibe una fuerza vertical hacia arriba igual al peso del fluido que desplaza. El peso del cuerpo actúa hacia abajo. Cuando un objeto flota en equilibrio, el empuje compensa su peso. No confundas masa con peso: la masa es cantidad de materia y se mide en kilogramos; el peso es una fuerza. No necesitamos cálculos de fuerzas para esta unidad, pero sí comprender la dirección del empuje y qué fluido se desplaza.
+
+No basta con decir que un objeto pesado se hunde. Un barco puede tener mucha masa y flotar porque su volumen exterior incluye espacios con aire y su densidad media es baja. Lo importante es la relación entre masa y volumen. Al terminar, comprueba la fórmula, las unidades y si el resultado tiene sentido.
+
+Resumen del bloque cuatro. Densidad es masa entre volumen; masa es densidad por volumen; volumen es masa entre densidad. Antes de calcular, compatibiliza unidades. La densidad media permite comparar un objeto con un fluido. Arquímedes explica el empuje hacia arriba, igual al peso del fluido desplazado. Examen oral: pausa y responde. ¿Basta la masa para comparar densidad? ¿Por qué flota el hielo? ¿Por qué flota un barco de metal? ¿Qué cambia al dividir una muestra homogénea? Comprueba: necesitas volumen; el hielo es menos denso que agua líquida; el barco incluye aire y tiene baja densidad media; bajan masa y volumen, pero no densidad si se mantienen condiciones.

@@ -156,7 +156,7 @@ soluciones separadas. Los episodios usan el RSS de Historia existente, temporada
 manifiesto registra voz, duración, tamaño y huella del texto.
 
 ```sh
-python scripts/alandalus-audio.py  # edge-tts y ffmpeg
+python scripts/alandalus-audio.py  # edge-tts, gTTS y ffmpeg
 node scripts/build-alandalus.mjs # integración inicial; evita duplicados
 # Validación antes de publicar; requiere linkedom instalado en el entorno:
 node scripts/validate-alandalus.mjs
@@ -165,3 +165,24 @@ node scripts/validate-alandalus.mjs
 Los guiones enlazan las comprobaciones de cronología del Ministerio de Cultura
 y del Patronato de la Alhambra. El material anterior y los RSS de FIKI y Euskara
 se conservan.
+
+## Voz de Historia en euskera y textos de todos los audios
+
+Historia en euskera utiliza Google TTS con idioma `eu`, el sistema validado
+para los temas 1–6. Al-Ándalus se ha corregido con esa misma voz. No generar
+los audios de Historia en euskera con una voz configurada para castellano.
+
+Los 22 apartados actuales (14 de GIZA y 8 de FIKI) enlazan el texto completo
+de su narración, con lectura, reproductor e impresión. Los guiones originales
+se conservan en `scripts/narrations/`; T07 usa `scripts/alandalus-content.json`.
+Todo nuevo apartado debe incluir también el texto exacto de su audio.
+
+Al corregir un audio ya publicado, usar un nombre de MP3 nuevo para evitar
+la caché y mantener el GUID, temporada y número del episodio en el RSS.
+
+```sh
+python scripts/alandalus-google-audio.py
+python scripts/finalize-audio-repair.py
+python scripts/build-audio-texts.py
+python scripts/validate-audio-texts.py
+```

@@ -1,0 +1,19 @@
+AUDIO GELA. Física y Química. Segundo de ESO. Unidad uno. Medir y convertir unidades.
+
+Una magnitud es una propiedad que se puede medir. Medir consiste en comparar con una unidad de referencia. Una medida completa incluye un número y una unidad: decir cinco no basta; cinco metros describe una longitud. Elegimos el instrumento apropiado: una regla para longitud, una balanza para masa, un cronómetro para tiempo y un termómetro para temperatura.
+
+El Sistema Internacional permite comunicar medidas con unidades compartidas. Sus siete unidades básicas son: metro para longitud, kilogramo para masa, segundo para tiempo, kelvin para temperatura, amperio para intensidad de corriente eléctrica, mol para cantidad de sustancia y candela para intensidad luminosa. El símbolo del kelvin es K, sin signo de grados. Los símbolos no llevan plural: escribimos kg, no kgs. El volumen, la superficie y la densidad son magnitudes derivadas. En el Sistema Internacional se expresan en metros cúbicos, metros cuadrados y kilogramos por metro cúbico.
+
+Para las conversiones trabajaremos con kilo, hecto, deca, unidad, deci, centi y mili. En una escala de longitud, masa o capacidad, cada paso hacia una unidad menor multiplica por diez. Hacia una unidad mayor divide por diez. De kilogramos a gramos hay tres pasos: multiplicamos por mil. De kilogramos a miligramos hay seis: multiplicamos por un millón. Por eso cero coma cero ocho kilogramos equivalen a ochenta mil miligramos.
+
+En superficies cada paso multiplica o divide por cien. Un metro cuadrado contiene diez mil centímetros cuadrados, porque un metro tiene cien centímetros y cien por cien es diez mil. Ocho mil cuatrocientos cincuenta y seis centímetros cuadrados son cero coma ocho cuatro cinco seis metros cuadrados. No uses el factor cien de longitud para convertir metros cuadrados a centímetros cuadrados.
+
+En volúmenes cúbicos cada paso multiplica o divide por mil. Un metro cúbico equivale a mil decímetros cúbicos y a un millón de centímetros cúbicos. Aquí la escala tiene tres dimensiones. No confundas un metro, un metro cuadrado y un metro cúbico: miden magnitudes distintas.
+
+El litro es una unidad de capacidad que usamos habitualmente. Un litro equivale exactamente a un decímetro cúbico. Un mililitro equivale a un centímetro cúbico. Un metro cúbico equivale a mil litros. Así, ochocientos setenta y cinco mililitros equivalen a cero coma ocho siete cinco decímetros cúbicos. Para pasar de decámetros cúbicos a litros, primero puedes pasar a metros cúbicos y luego a litros: siete coma cinco decámetros cúbicos son siete mil quinientos metros cúbicos, es decir, siete millones quinientos mil litros.
+
+Para ordenar medidas, convierte todas a una misma unidad antes de comparar. Ocho coma dos decámetros son ochenta y dos metros; doscientos cincuenta y cuatro centímetros son dos coma cinco cuatro metros; cero coma cero cero cero tres kilómetros son cero coma tres metros. El mayor es el primero, después el segundo y después el tercero.
+
+En cada ejercicio escribe la equivalencia, calcula y añade la unidad final. Comprueba si el número debe aumentar o disminuir. Una unidad menor exige más unidades para describir la misma cantidad. El cambio de unidad no cambia la cantidad real.
+
+Resumen del bloque tres. Una magnitud se puede medir. Una medida lleva número y unidad. En unidades lineales y litros, cada salto tiene factor diez; en superficies, cien; en volúmenes cúbicos, mil. Un litro es un decímetro cúbico y un mililitro un centímetro cúbico. Examen oral: pausa y responde. ¿Cuál es la unidad básica de masa? ¿Qué instrumento mide temperatura? ¿Por qué no se convierte un área como una longitud? ¿Qué haces antes de ordenar unidades distintas? Comprueba: kilogramo, termómetro, dos dimensiones y convertir todas a la misma unidad.

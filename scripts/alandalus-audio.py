@@ -53,7 +53,9 @@ async def generate(lang, voice):
         print(f'DONE {lang}: {duration:.2f}s', flush=True)
 
 async def main():
-    await asyncio.gather(generate('cast', 'es-ES-ElviraNeural'), generate('eus', 'es-ES-XimenaNeural'))
+    await generate('cast', 'es-ES-ElviraNeural')
+    # Basque uses the same native Google voice as validated Historia T01–T06.
+    subprocess.run([os.sys.executable, str(ROOT / 'scripts/alandalus-google-audio.py')], check=True)
 
 if __name__ == '__main__':
     asyncio.run(main())

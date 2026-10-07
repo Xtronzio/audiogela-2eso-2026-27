@@ -1,0 +1,156 @@
+[
+  {
+    "id": "historia-castellano-u1-t01",
+    "audio": "01-historia-u1-comienzo-edad-media.mp3",
+    "page": "guion-historia-u1-t01-cast.html",
+    "lang": "cast",
+    "paragraphs": 37
+  },
+  {
+    "id": "historia-castellano-u1-t02",
+    "audio": "02-historia-u1-imperio-bizantino.mp3",
+    "page": "guion-historia-u1-t02-cast.html",
+    "lang": "cast",
+    "paragraphs": 41
+  },
+  {
+    "id": "historia-castellano-u1-t03",
+    "audio": "03-historia-u1-reinos-germanicos.mp3",
+    "page": "guion-historia-u1-t03-cast.html",
+    "lang": "cast",
+    "paragraphs": 47
+  },
+  {
+    "id": "historia-castellano-u1-t04",
+    "audio": "04-historia-u1-reino-visigodo.mp3",
+    "page": "guion-historia-u1-t04-cast.html",
+    "lang": "cast",
+    "paragraphs": 45
+  },
+  {
+    "id": "historia-castellano-u1-t05",
+    "audio": "05-historia-u1-imperio-carolingio.mp3",
+    "page": "guion-historia-u1-t05-cast.html",
+    "lang": "cast",
+    "paragraphs": 49
+  },
+  {
+    "id": "historia-castellano-u1-t06",
+    "audio": "06-historia-u1-nacimiento-expansion-islam.mp3",
+    "page": "guion-historia-u1-t06-cast.html",
+    "lang": "cast",
+    "paragraphs": 50
+  },
+  {
+    "id": "historia-castellano-u1-t07",
+    "audio": "07-historia-u1-al-andalus.mp3",
+    "page": "guion-historia-u1-t07-cast.html",
+    "lang": "cast",
+    "paragraphs": 13
+  },
+  {
+    "id": "historia-euskara-u1-t01",
+    "audio": "01-historia-eus-u1-erdi-aroaren-hasiera.mp3",
+    "page": "guion-historia-u1-t01-eus.html",
+    "lang": "eus",
+    "paragraphs": 46
+  },
+  {
+    "id": "historia-euskara-u1-t02",
+    "audio": "02-historia-eus-u1-bizantziar-inperioa.mp3",
+    "page": "guion-historia-u1-t02-eus.html",
+    "lang": "eus",
+    "paragraphs": 36
+  },
+  {
+    "id": "historia-euskara-u1-t03",
+    "audio": "03-historia-eus-u1-erresuma-germaniarrak.mp3",
+    "page": "guion-historia-u1-t03-eus.html",
+    "lang": "eus",
+    "paragraphs": 37
+  },
+  {
+    "id": "historia-euskara-u1-t04",
+    "audio": "04-historia-eus-u1-bisigodoen-erresuma.mp3",
+    "page": "guion-historia-u1-t04-eus.html",
+    "lang": "eus",
+    "paragraphs": 39
+  },
+  {
+    "id": "historia-euskara-u1-t05",
+    "audio": "05-historia-eus-u1-karolingiar-inperioa.mp3",
+    "page": "guion-historia-u1-t05-eus.html",
+    "lang": "eus",
+    "paragraphs": 39
+  },
+  {
+    "id": "historia-euskara-u1-t06",
+    "audio": "06-historia-eus-u1-islamaren-sorrera-eta-hedapena.mp3",
+    "page": "guion-historia-u1-t06-eus.html",
+    "lang": "eus",
+    "paragraphs": 40
+  },
+  {
+    "id": "historia-euskara-u1-t07",
+    "audio": "07-historia-eus-u1-al-andalus-google-r2.mp3",
+    "page": "guion-historia-u1-t07-eus.html",
+    "lang": "eus",
+    "paragraphs": 13
+  },
+  {
+    "id": "fiki-cast-u1-t1",
+    "audio": "fiki-u1-01-cast-r2.mp3",
+    "page": "guion-fiki-u1-t01-cast.html",
+    "lang": "cast",
+    "paragraphs": 8
+  },
+  {
+    "id": "fiki-cast-u1-t2",
+    "audio": "fiki-u1-02-cast-r2.mp3",
+    "page": "guion-fiki-u1-t02-cast.html",
+    "lang": "cast",
+    "paragraphs": 10
+  },
+  {
+    "id": "fiki-cast-u1-t3",
+    "audio": "fiki-u1-03-cast-r2.mp3",
+    "page": "guion-fiki-u1-t03-cast.html",
+    "lang": "cast",
+    "paragraphs": 10
+  },
+  {
+    "id": "fiki-cast-u1-t4",
+    "audio": "fiki-u1-04-cast-r2.mp3",
+    "page": "guion-fiki-u1-t04-cast.html",
+    "lang": "cast",
+    "paragraphs": 10
+  },
+  {
+    "id": "fiki-eus-u1-t1",
+    "audio": "fiki-u1-01-eus-r2.mp3",
+    "page": "guion-fiki-u1-t01-eus.html",
+    "lang": "eus",
+    "paragraphs": 8
+  },
+  {
+    "id": "fiki-eus-u1-t2",
+    "audio": "fiki-u1-02-eus-r2.mp3",
+    "page": "guion-fiki-u1-t02-eus.html",
+    "lang": "eus",
+    "paragraphs": 10
+  },
+  {
+    "id": "fiki-eus-u1-t3",
+    "audio": "fiki-u1-03-eus-r2.mp3",
+    "page": "guion-fiki-u1-t03-eus.html",
+    "lang": "eus",
+    "paragraphs": 10
+  },
+  {
+    "id": "fiki-eus-u1-t4",
+    "audio": "fiki-u1-04-eus-r2.mp3",
+    "page": "guion-fiki-u1-t04-eus.html",
+    "lang": "eus",
+    "paragraphs": 10
+  }
+]

@@ -141,3 +141,27 @@ El portal general solo enlazará cada aula. Los repositorios, páginas, material
 - Los cambios estructurales importantes podrán utilizar una nueva versión principal.
 
 Antes de cada versión estable se conservará una copia completa del repositorio.
+
+## Historia · GIZA · U1 · T07 — Al-Ándalus
+
+Añadido en castellano y euskera después del tema 6. Incluye las seis etapas
+políticas, agricultura/comercio/artesanía y los grupos sociales del resumen
+aportado por el usuario (apartados 8, 9 y 10). Conserva las fechas del esquema
+para estudiar; distingue el inicio nazarí de 1232 y la capital en Granada en 1238.
+
+Cada idioma tiene audio con resumen y repaso oral, texto del audio, cinco
+niveles de 20 preguntas con rotación 10+10 y una ficha de 25 actividades con
+soluciones separadas. Los episodios usan el RSS de Historia existente, temporada
+1 (CAST) y 2 (EUS), número 7. Las narraciones se generan por párrafos y el
+manifiesto registra voz, duración, tamaño y huella del texto.
+
+```sh
+python scripts/alandalus-audio.py  # edge-tts y ffmpeg
+node scripts/build-alandalus.mjs # integración inicial; evita duplicados
+# Validación antes de publicar; requiere linkedom instalado en el entorno:
+node scripts/validate-alandalus.mjs
+```
+
+Los guiones enlazan las comprobaciones de cronología del Ministerio de Cultura
+y del Patronato de la Alhambra. El material anterior y los RSS de FIKI y Euskara
+se conservan.

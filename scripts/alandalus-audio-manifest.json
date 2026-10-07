@@ -1,0 +1,150 @@
+{
+  "cast": {
+    "file": "07-historia-u1-al-andalus.mp3",
+    "voice": "es-ES-ElviraNeural",
+    "text_sha256": "dcca5b317d82e218e5ecc9bfbf90977bc2120fb41e584e4f62db9129461783f6",
+    "paragraphs": [
+      {
+        "paragraph": 1,
+        "words": 59,
+        "seconds": 30.336
+      },
+      {
+        "paragraph": 2,
+        "words": 91,
+        "seconds": 38.28
+      },
+      {
+        "paragraph": 3,
+        "words": 99,
+        "seconds": 38.832
+      },
+      {
+        "paragraph": 4,
+        "words": 96,
+        "seconds": 40.92
+      },
+      {
+        "paragraph": 5,
+        "words": 117,
+        "seconds": 51.36
+      },
+      {
+        "paragraph": 6,
+        "words": 140,
+        "seconds": 57.48
+      },
+      {
+        "paragraph": 7,
+        "words": 112,
+        "seconds": 49.824
+      },
+      {
+        "paragraph": 8,
+        "words": 109,
+        "seconds": 47.496
+      },
+      {
+        "paragraph": 9,
+        "words": 92,
+        "seconds": 43.68
+      },
+      {
+        "paragraph": 10,
+        "words": 123,
+        "seconds": 52.032
+      },
+      {
+        "paragraph": 11,
+        "words": 98,
+        "seconds": 42.672
+      },
+      {
+        "paragraph": 12,
+        "words": 94,
+        "seconds": 45.936
+      },
+      {
+        "paragraph": 13,
+        "words": 86,
+        "seconds": 42.072
+      }
+    ],
+    "seconds": 580.968,
+    "bytes": 3486168
+  },
+  "eus": {
+    "file": "07-historia-eus-u1-al-andalus.mp3",
+    "voice": "es-ES-XimenaNeural",
+    "text_sha256": "0fb8c56670d2df06be02db4fda706a78ac88c26b05e196c53d27baa0eb099ab4",
+    "paragraphs": [
+      {
+        "paragraph": 1,
+        "words": 51,
+        "seconds": 35.544
+      },
+      {
+        "paragraph": 2,
+        "words": 69,
+        "seconds": 38.856
+      },
+      {
+        "paragraph": 3,
+        "words": 68,
+        "seconds": 40.368
+      },
+      {
+        "paragraph": 4,
+        "words": 76,
+        "seconds": 44.976
+      },
+      {
+        "paragraph": 5,
+        "words": 92,
+        "seconds": 56.424
+      },
+      {
+        "paragraph": 6,
+        "words": 114,
+        "seconds": 64.488
+      },
+      {
+        "paragraph": 7,
+        "words": 89,
+        "seconds": 52.104
+      },
+      {
+        "paragraph": 8,
+        "words": 84,
+        "seconds": 51.504
+      },
+      {
+        "paragraph": 9,
+        "words": 81,
+        "seconds": 47.976
+      },
+      {
+        "paragraph": 10,
+        "words": 91,
+        "seconds": 54.888
+      },
+      {
+        "paragraph": 11,
+        "words": 77,
+        "seconds": 46.512
+      },
+      {
+        "paragraph": 12,
+        "words": 87,
+        "seconds": 55.224
+      },
+      {
+        "paragraph": 13,
+        "words": 75,
+        "seconds": 48.216
+      }
+    ],
+    "seconds": 637.128,
+    "bytes": 3823127
+  }
+}

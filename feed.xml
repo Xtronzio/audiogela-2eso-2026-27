@@ -10,7 +10,7 @@
     <description>Podcast educativo bilingüe de 2.º ESO. Temporada 1 en castellano y temporada 2 en euskera, con explicaciones claras y resúmenes para aprender escuchando.</description>
     <language>es-es</language>
     <copyright>AUDIO GELA 2026</copyright>
-    <lastBuildDate>Mon, 28 Sep 2026 20:10:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 14:59:25 GMT</lastBuildDate>
     <generator>AUDIO GELA</generator>
     <itunes:author>AUDIO GELA</itunes:author>
     <itunes:summary>Historia de 2.º ESO en castellano y euskera: explicaciones claras y resúmenes para aprender escuchando.</itunes:summary>
@@ -20,6 +20,9 @@
     <itunes:category text="Education">
       <itunes:category text="Courses" />
     </itunes:category>
+
+<item><title>HISTORIA · EUS · U1 · T07 — Al-Andalus: etapak, ekonomia eta gizartea</title><link>https://xtronzio.github.io/audiogela-2eso-2026-27/index.html#historia-euskara-u1-t07</link><description>Al-Andalusen sei etapak, oparotasun ekonomikoaren oinarriak eta gizarte anitza eta desberdina.</description><content:encoded><![CDATA[<p>Al-Andalusen sei etapak, oparotasun ekonomikoaren oinarriak eta gizarte anitza eta desberdina.</p><p><a href="https://xtronzio.github.io/audiogela-2eso-2026-27/test-historia-u1-t07-eus.html">Autoebaluazio interaktiboa</a></p>]]></content:encoded><pubDate>Wed, 07 Oct 2026 14:59:25 GMT</pubDate><guid isPermaLink="false">audiogela-2eso-2026-27-historia-eus-u1-t07</guid><enclosure url="https://xtronzio.github.io/audiogela-2eso-2026-27/07-historia-eus-u1-al-andalus.mp3" length="3823127" type="audio/mpeg"/><itunes:episode>7</itunes:episode><itunes:season>2</itunes:season><itunes:episodeType>full</itunes:episodeType><itunes:duration>10:37</itunes:duration><itunes:explicit>false</itunes:explicit></item>
+<item><title>HISTORIA · CAST · U1 · T07 — Al-Ándalus: etapas, economía y sociedad</title><link>https://xtronzio.github.io/audiogela-2eso-2026-27/index.html#historia-castellano-u1-t07</link><description>Las seis etapas de Al-Ándalus, las bases de su prosperidad y una sociedad diversa y desigual.</description><content:encoded><![CDATA[<p>Las seis etapas de Al-Ándalus, las bases de su prosperidad y una sociedad diversa y desigual.</p><p><a href="https://xtronzio.github.io/audiogela-2eso-2026-27/test-historia-u1-t07-cast.html">Autoevaluación interactiva</a></p>]]></content:encoded><pubDate>Wed, 07 Oct 2026 14:59:25 GMT</pubDate><guid isPermaLink="false">audiogela-2eso-2026-27-historia-cast-u1-t07</guid><enclosure url="https://xtronzio.github.io/audiogela-2eso-2026-27/07-historia-u1-al-andalus.mp3" length="3486168" type="audio/mpeg"/><itunes:episode>7</itunes:episode><itunes:season>1</itunes:season><itunes:episodeType>full</itunes:episodeType><itunes:duration>9:41</itunes:duration><itunes:explicit>false</itunes:explicit></item>
 
     <item>
       <title>HISTORIA · EUS · U1 · T06 — Islamaren sorrera eta hedapena</title>

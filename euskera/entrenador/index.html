@@ -1,14 +1,15 @@
 <!doctype html>
 <html lang="es">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#0b438f"><meta name="description" content="Entrenamiento continuo de Euskera de 2º ESO: trinkoak, NOR-NORI, NOR/NORK, declinación y pronombres."><title>AUDIO GELA · Euskera · Entrenamiento</title><link rel="icon" href="../../favicon.ico?v=20261001" sizes="any"><link rel="apple-touch-icon" href="../../apple-touch-icon.png?v=20261001"><link rel="stylesheet" href="style.css?v=20261014-1"></head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#0b438f"><meta name="description" content="Entrenamiento continuo de Euskera de 2º ESO: verbos, auxiliares, declinación, demostrativos y frases con corrección."><title>AUDIO GELA · Euskera · Entrenamiento</title><link rel="icon" href="../../favicon.ico?v=20261001" sizes="any"><link rel="apple-touch-icon" href="../../apple-touch-icon.png?v=20261001"><link rel="stylesheet" href="style.css?v=20261014-3"></head>
 <body>
 <header class="top"><a class="brand" href="../../index.html#asignatura-euskera"><span class="brand-icon" style="font-size:18px;padding:0">AG</span><span>AUDIO GELA<span class="brand-sub">EUSKERA · 2º ESO</span></span></a><div class="top-actions"><button id="tableButton" class="quiet">Ver tabla</button><button id="statsButton" class="quiet">Mi progreso</button></div></header>
 <nav class="breadcrumbs"><a href="../../index.html#asignatura-euskera">← Volver al aula de 2º ESO</a><a href="https://xtronzio.github.io/audiogela/">Portal AUDIOGELA</a></nav>
 <main class="shell">
- <aside class="panel settings" id="settings"><div class="section-tag">TU ENTRENAMIENTO</div><h1>Un poco más.<br><span>Cada vez más fácil.</span></h1><p class="intro">Elige, comprueba y repite. Sin escribir. Sin reloj.</p>
+ <aside class="panel settings" id="settings"><div class="section-tag">TU ENTRENAMIENTO</div><h1>Un poco más.<br><span>Cada vez más fácil.</span></h1><p class="intro">Elige, comprueba y repite. Escribir es opcional. Sin reloj.</p>
  <button id="settingsToggle" class="mobile-toggle" aria-expanded="false">Ajustar entrenamiento <span>⌄</span></button>
  <div id="settingsBody">
- <label class="label" for="module">Bloque de Euskera</label><select id="module"><option value="trinkoak">Aditz trinkoak · verbos</option><option value="nori">NOR-NORI · auxiliares</option><option value="nork">NOR / NORK · frases</option><option value="decl">Deklinabidea · declinación</option><option value="pron">Izenordainak · pronombres</option></select>
+ <label class="label" for="difficulty">Nivel de práctica</label><select id="difficulty"><option value="standard">2º ESO · opciones parecidas</option><option value="guided">Inicio · con más ayuda</option></select>
+ <label class="label" for="module">Bloque de Euskera</label><select id="module"><option value="sentences">Completar frases · 1 o 2 huecos</option><option value="trinkoak">Aditz trinkoak · verbos</option><option value="nori">NOR-NORI · auxiliares</option><option value="nork">NOR / NORK · frases</option><option value="decl">Deklinabidea · declinación</option><option value="pron">Izenordainak · pronombres</option><option value="aux">Aditz laguntzaileak · cuatro familias</option><option value="dem">Erakusleak · demostrativos</option><option value="concepts">Comprender la gramática · razonar</option></select>
  <div id="grammarSettings" hidden><label class="label" for="topic">Practicar por partes</label><select id="topic"></select><div id="numberWrap"><label class="label" for="number">Número</label><select id="number"><option value="all">Singular, plural y mugagabea</option><option value="singular">Solo singular</option><option value="plural">Solo plural</option><option value="indefinite">Solo mugagabea</option></select></div></div>
  <div id="trinkoSettings"><label class="label">Familia verbal</label><div class="segments" id="family"><button data-value="NOR">NOR</button><button data-value="NORK">NORK</button><button data-value="ALL">Los dos</button></div><p class="small" id="familyHelp"></p>
  <label class="label">2. Los verbos</label><div class="verbs" id="verbs"></div><button class="text-button" id="allVerbs">Seleccionar todos</button>
@@ -19,7 +20,8 @@
  </div></aside>
  <section class="practice">
  <div class="practice-heading"><div><div class="section-tag">PRACTICAR, PRACTICAR, PRACTICAR</div><h2>Una tarjeta más.</h2></div><button id="shareButton" class="circle" aria-label="Copiar enlace">↗</button></div>
- <div class="mode-tabs" id="mode"><button data-value="quiz">Elige una opción</button><button data-value="cards">Dale la vuelta</button><button data-value="write">Escribir · después</button></div>
+ <nav class="practice-links"><a href="?module=sentences&amp;v=20261014-3">Completar frases →</a><span>1 o 2 huecos · opciones o escritura</span></nav>
+ <div class="mode-tabs" id="mode"><button data-value="quiz">Elige una opción</button><button data-value="cards">Dale la vuelta</button><button data-value="write">Escribir respuestas</button></div>
  <div class="round-line"><span>Tanda de 20</span><b id="roundText">0 / 20</b></div><div class="progress-track"><span id="roundBar"></span></div>
  <article class="card" id="questionCard"><div class="chips" id="chips"></div><p id="prompt" class="prompt">Elige la forma correcta</p><div class="question-word" id="questionWord"></div><p class="meaning" id="meaning"></p><div id="options" class="options"></div>
  <div id="flipArea" hidden><button id="flipButton" class="flip-button">Toca para ver la respuesta <span>↻</span></button><div id="cardAnswer" hidden><div class="revealed-form" id="revealedForm"></div><p class="small">¿La recordabas antes de dar la vuelta?</p><div class="self-rating"><button data-rating="no">No la sabía</button><button data-rating="doubt">Dudaba</button><button data-rating="yes">La sabía</button></div></div></div>
@@ -33,5 +35,5 @@
 </main>
 <footer><span>AUDIO GELA · ikasi zure erritmoan</span><button id="helpButton" class="text-button">Cómo funciona</button></footer>
 <dialog id="dialog"><div class="dialog-head"><h2 id="dialogTitle"></h2><button id="closeDialog" class="circle" aria-label="Cerrar">×</button></div><div id="dialogBody"></div></dialog><div class="toast" id="toast" role="status" hidden></div>
-<script src="engine.js?v=20261014-1"></script><script src="grammar-data.js?v=20261014-1"></script><script src="grammar-engine.js?v=20261014-1"></script><script src="app.js?v=20261014-1"></script></body></html>
+<script src="engine.js?v=20261014-3"></script><script src="grammar-data.js?v=20261014-3"></script><script src="grammar-engine.js?v=20261014-3"></script><script src="syllabus.js?v=20261014-3"></script><script src="app.js?v=20261014-3"></script></body></html>
 

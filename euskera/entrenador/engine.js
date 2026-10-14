@@ -21,6 +21,8 @@ for(const [verb,meaning,family,pres,past,plPres,plPast] of specs){
 function pool(settings){return entries.filter(e=>(settings.family==='ALL'||e.family===settings.family)&&settings.verbs.includes(e.verb)&&(settings.tense==='both'||settings.tense===e.tense)&&(e.family==='NOR'||settings.object==='both'||settings.object===e.count)&&(settings.hi||e.person!=='hi')&&(!e.hika||e.hika===settings.hika));}
 const shuffle=(a,rng=Math.random)=>{a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(rng()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;};
 const unique=a=>[...new Set(a)];
+function distance(a,b){a=a.toLowerCase();b=b.toLowerCase();let row=Array.from({length:b.length+1},(_,i)=>i);for(let i=1;i<=a.length;i++){let next=[i];for(let j=1;j<=b.length;j++)next[j]=Math.min(next[j-1]+1,row[j]+1,row[j-1]+(a[i-1]===b[j-1]?0:1));row=next;}return row[b.length];}
+const nearest=(forms,answer)=>unique(forms).map(form=>({form,score:distance(form,answer)})).sort((a,b)=>a.score-b.score).map(e=>e.form);
 const pronoun=e=>labels[e.person][e.family==='NOR'?0:1];
 const tenseLabel=t=>t==='present'?'ORAINALDIA · presente':'LEHENALDIA · pasado';
 function choose(list,stats,step,recent,rng=Math.random){
@@ -34,7 +36,7 @@ function choose(list,stats,step,recent,rng=Math.random){
  let target=rng()*weights.reduce((a,b)=>a+b,0);for(let i=0;i<normal.length;i++){target-=weights[i];if(target<=0)return normal[i];}return normal.at(-1);
 }
 function makeQuestion(entry,settings,rng=Math.random,forcedKind=null){
- const kind=forcedKind||(settings.direction==='mixed'?shuffle(['form','form','person','verb','change'],rng)[0]:'form');
+ const kind=forcedKind||(settings.direction==='mixed'?shuffle(settings.difficulty==='standard'?['form','form','person','change','change']:['form','form','person','verb','change'],rng)[0]:'form');
  let answer=entry.form,candidates=[],heading='Elige la forma correcta',display=pronoun(entry),meta=[entry.verb,tenseLabel(entry.tense)],target=entry;
  if(kind==='person'){
   answer=pronoun(entry);display=entry.form;heading='¿A qué persona corresponde?';
@@ -52,6 +54,7 @@ function makeQuestion(entry,settings,rng=Math.random,forcedKind=null){
   const near=shuffle(entries.filter(e=>e.verb===target.verb&&e.person===target.person&&compatible(e)),rng).map(e=>e.form);
   const broad=shuffle(entries.filter(e=>e.family===target.family&&compatible(e)),rng).map(e=>e.form);
   candidates=unique([...tight.slice(0,2),...near.slice(0,1),...tight,...broad]);
+  if(settings.difficulty==='standard')candidates=nearest(shuffle(entries.filter(e=>e.verb===target.verb&&compatible(e)),rng).map(e=>e.form),answer);
  }
  if(entry.family==='NORK')meta.push(entry.count==='one'?'Una cosa · singular':'Varias cosas · plural');
  if(entry.person==='hi'&&entry.family==='NORK'&&entry.tense==='present')meta.push(settings.hika==='male'?'HIK: masculino':'HIK: femenino');
@@ -66,7 +69,7 @@ function record(stats,id,correct,step,now=Date.now()){
  else{s.misses++;s.streak=0;s.retryAt=step+3;s.reviewAt=now;}
  stats[id]=s;return s;
 }
-root.Trinkoak={persons,labels,specs,entries,pool,shuffle,pronoun,tenseLabel,choose,makeQuestion,record};
+root.Trinkoak={persons,labels,specs,entries,pool,shuffle,pronoun,tenseLabel,choose,makeQuestion,record,distance,nearest};
 if(typeof module!=='undefined')module.exports=root.Trinkoak;
 })(typeof window!=='undefined'?window:globalThis);
 

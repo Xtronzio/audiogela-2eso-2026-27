@@ -1,0 +1,56 @@
+{
+  "file": "historia-u2-b01-eus-r1.mp3",
+  "voice": "Google TTS · eu",
+  "rate": "default",
+  "language": "eu",
+  "text_sha256": "953765f2fcf8446ba84229ac421b847524f6461b75bdfd32efc9b4dbceeacec7",
+  "paragraphs": [
+    {
+      "paragraph": 1,
+      "words": 31,
+      "seconds": 17.136
+    },
+    {
+      "paragraph": 2,
+      "words": 49,
+      "seconds": 31.608
+    },
+    {
+      "paragraph": 3,
+      "words": 56,
+      "seconds": 32.16
+    },
+    {
+      "paragraph": 4,
+      "words": 53,
+      "seconds": 30.096
+    },
+    {
+      "paragraph": 5,
+      "words": 60,
+      "seconds": 32.4
+    },
+    {
+      "paragraph": 6,
+      "words": 56,
+      "seconds": 32.544
+    },
+    {
+      "paragraph": 7,
+      "words": 51,
+      "seconds": 28.992
+    },
+    {
+      "paragraph": 8,
+      "words": 56,
+      "seconds": 30.408
+    },
+    {
+      "paragraph": 9,
+      "words": 57,
+      "seconds": 34.176
+    }
+  ],
+  "seconds": 269.568,
+  "bytes": 1617705
+}

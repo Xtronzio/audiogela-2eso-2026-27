@@ -1,0 +1,61 @@
+{
+  "file": "historia-u2-b05-cast-r1.mp3",
+  "voice": "es-ES-ElviraNeural",
+  "rate": "-3%",
+  "language": "es-ES",
+  "text_sha256": "5f2d61d27c43dae3572e794f3cabf3cd13d0a9ce2b808699b4782e5847a8cb43",
+  "paragraphs": [
+    {
+      "paragraph": 1,
+      "words": 29,
+      "seconds": 14.568
+    },
+    {
+      "paragraph": 2,
+      "words": 78,
+      "seconds": 31.944
+    },
+    {
+      "paragraph": 3,
+      "words": 75,
+      "seconds": 32.64
+    },
+    {
+      "paragraph": 4,
+      "words": 70,
+      "seconds": 33.264
+    },
+    {
+      "paragraph": 5,
+      "words": 60,
+      "seconds": 26.4
+    },
+    {
+      "paragraph": 6,
+      "words": 65,
+      "seconds": 30.144
+    },
+    {
+      "paragraph": 7,
+      "words": 78,
+      "seconds": 30.72
+    },
+    {
+      "paragraph": 8,
+      "words": 58,
+      "seconds": 27.36
+    },
+    {
+      "paragraph": 9,
+      "words": 62,
+      "seconds": 25.608
+    },
+    {
+      "paragraph": 10,
+      "words": 73,
+      "seconds": 29.376
+    }
+  ],
+  "seconds": 282.072,
+  "bytes": 1692730
+}

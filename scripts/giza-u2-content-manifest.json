@@ -1,0 +1,151 @@
+{
+  "unit": 2,
+  "source": "TEMA 2(1).pdf",
+  "source_sha256": "d1ed7a98a975fb6bd5cda0feb80fb5a427f385ab09b03ea35dfc441b94da59d9",
+  "duplicate_pages": [
+    {
+      "page": 16,
+      "duplicate_of": 15
+    }
+  ],
+  "subtopics": {
+    "1": {
+      "pages": [
+        3,
+        4
+      ],
+      "sections": [
+        1
+      ],
+      "cast": [
+        "¿Por qué se implantó el feudalismo en Europa?",
+        "Inseguridad, pérdida de autoridad real, vasallaje y servidumbre."
+      ],
+      "eus": [
+        "Zergatik ezarri zen feudalismoa Europan?",
+        "Segurtasunik eza, errege agintearen ahultzea, basailutza eta joputza."
+      ]
+    },
+    "2": {
+      "pages": [
+        5,
+        6
+      ],
+      "sections": [
+        2
+      ],
+      "cast": [
+        "¿A quién beneficiaba la sociedad estamental?",
+        "Estamentos, privilegios, desigualdad y monarquía feudal."
+      ],
+      "eus": [
+        "Nori egiten zion mesede estamentuzko gizarteak?",
+        "Estamentuak, pribilegioak, desberdintasuna eta monarkia feudala."
+      ]
+    },
+    "3": {
+      "pages": [
+        7,
+        8
+      ],
+      "sections": [
+        3
+      ],
+      "cast": [
+        "¿Cómo se organizaba un feudo?",
+        "Reserva, mansos, alodios, derechos señoriales y obligaciones campesinas."
+      ],
+      "eus": [
+        "Nola antolatzen zen feudoa?",
+        "Erreserba, mantsoak, alodioak, jaun eskubideak eta nekazarien betebeharrak."
+      ]
+    },
+    "4": {
+      "pages": [
+        9,
+        10
+      ],
+      "sections": [
+        4
+      ],
+      "cast": [
+        "¿Cómo vivían los nobles?",
+        "Caballeros, damas, formación, armas, actividades y amor cortés."
+      ],
+      "eus": [
+        "Nola bizi ziren nobleak?",
+        "Zaldunak, damak, prestakuntza, armak, jarduerak eta amodio kortesaua."
+      ]
+    },
+    "5": {
+      "pages": [
+        11,
+        12
+      ],
+      "sections": [
+        5
+      ],
+      "cast": [
+        "¿Era el castillo un espacio para la defensa?",
+        "Partes del castillo, defensa, refugio, autosuficiencia y vida interior."
+      ],
+      "eus": [
+        "Defentsarako espazioa al zen gaztelua?",
+        "Gazteluaren atalak, defentsa, babesa, autosufizientzia eta barneko bizitza."
+      ]
+    },
+    "6": {
+      "pages": [
+        13,
+        14
+      ],
+      "sections": [
+        6
+      ],
+      "cast": [
+        "¿Cómo vivían los campesinos?",
+        "Trabajo familiar, calendario agrícola, técnicas, vivienda, alimentación y hambre."
+      ],
+      "eus": [
+        "Nola bizi ziren nekazariak?",
+        "Familia lana, nekazaritzako egutegia, teknikak, etxea, elikadura eta gosea."
+      ]
+    },
+    "7": {
+      "pages": [
+        15,
+        16
+      ],
+      "sections": [
+        7
+      ],
+      "cast": [
+        "¿Qué lugar ocupaba la Iglesia en la sociedad feudal?",
+        "Vida comunitaria, ceremonias, peregrinaciones, paz y organización del clero."
+      ],
+      "eus": [
+        "Zer leku zuen Elizak gizarte feudalean?",
+        "Komunitate bizitza, zeremoniak, erromesaldiak, bakea eta kleroaren antolaketa."
+      ]
+    }
+  },
+  "questions_per_subtopic_language": 100,
+  "worksheet_items_per_subtopic_language": 25,
+  "voices": {
+    "cast": "es-ES-ElviraNeural",
+    "eus": "Google TTS · eu"
+  },
+  "podcast_seasons": {
+    "cast": 1,
+    "eus": 2
+  },
+  "podcast_episodes": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ]
+}

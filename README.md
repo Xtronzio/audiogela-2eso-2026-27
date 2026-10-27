@@ -186,3 +186,56 @@ python scripts/finalize-audio-repair.py
 python scripts/build-audio-texts.py
 python scripts/validate-audio-texts.py
 ```
+
+
+## GIZA · Unidad 2 · Siete subtemas independientes
+
+Rehecha siguiendo la estructura del material de clase y el modelo de U1.
+La versión agrupada en cinco bloques fue retirada del catálogo, del RSS y del
+repositorio. Sus archivos de audio y recursos ya no forman parte de la web.
+
+El contenido autorizado abarca los apartados 1–7 de `TEMA 2(1).pdf`. No se
+incorporan los apartados 8–10. Cada subtema conserva su numeración y contiene
+únicamente la explicación y la práctica de su apartado:
+
+| Subtema | Contenido | Páginas del PDF |
+|---|---|---|
+| T01 | Por qué se implantó el feudalismo | 3–4 |
+| T02 | A quién beneficiaba la sociedad estamental | 5–6 |
+| T03 | Cómo se organizaba un feudo | 7–8 |
+| T04 | Cómo vivían los nobles | 9–10 |
+| T05 | El castillo y sus funciones defensivas y cotidianas | 11–12 |
+| T06 | Cómo vivían los campesinos | 13–14 |
+| T07 | El lugar de la Iglesia en la sociedad feudal | 15–16 |
+
+Cada idioma dispone de siete explicaciones desarrolladas, con introducción,
+explicación clara de conceptos y relaciones, ejemplos y resumen final. Se
+conservan las voces de Historia: `es-ES-ElviraNeural` a `-3%` y Google TTS `eu`.
+Los archivos `r2.mp3` son nuevos y evitan reutilizar en caché los cinco bloques
+retirados. Las transcripciones enlazadas contienen exactamente lo narrado.
+
+Por subtema e idioma hay cinco niveles de 20 preguntas, con rondas de 10+10
+sin repetición, corrección razonada y mejor puntuación guardada. La ficha
+imprimible tiene 25 actividades y soluciones en sección separada; las primeras
+20 actividades distribuyen los conceptos del apartado, sin repetir siempre
+los mismos cinco. Total: 14 audios, 1.400 preguntas y 350 actividades escritas.
+
+El podcast conserva las temporadas por idioma: 1 CAST, 2 EUS. U2 ocupa los
+episodios 8–14 de cada temporada, con nuevos GUID `u2-t01` a `u2-t07`. Los diez
+GUID de los bloques rechazados `u2-b01` a `u2-b05` están ausentes del RSS.
+
+Fuentes editables y construcción:
+
+```sh
+python scripts/giza-u2-audio.py --lang cast
+python scripts/giza-u2-audio.py --lang eus
+python scripts/build-giza-u2.py
+AUDIOGELA_QA_MODULES=/ruta/a/linkedom node scripts/validate-giza-u2.mjs
+```
+
+El manifiesto registra el PDF y su huella, la correspondencia de apartados y
+las voces. Los manifiestos de audio guardan las huellas de texto, duraciones y
+tamaños. La generación castellana verifica todos los límites de palabra;
+ambos idiomas verifican párrafos y decodificación. Los archivos completos se
+publican después de validar la concatenación. La página 16 del PDF repite la
+15; la referencia no supone dos apartados diferentes.

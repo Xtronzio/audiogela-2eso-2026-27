@@ -1,0 +1,135 @@
+{
+  "unit": 3,
+  "title": "Bide eta harresietan zehar",
+  "source": "Documento escaneado 24-11-26 (11.31.39).pdf",
+  "source_sha256": "4d85bc9a645bc974988b55dcff1ae72003914b7ee4be5c3b1db12916cf4ba833",
+  "scope": "Six numbered sections; introductory spread provides context; red-crossed source boxes and exercises are excluded.",
+  "subtopics": {
+    "1": {
+      "pages": [
+        62,
+        63
+      ],
+      "pdf_page": 2,
+      "sections": [
+        1
+      ],
+      "cast": [
+        "¿Qué provocó el renacer de las ciudades?",
+        "Seguridad, mejoras agrícolas, población, excedentes y nuevos burgos."
+      ],
+      "eus": [
+        "Zerk eragin zuen hiriak berpiztea?",
+        "Segurtasuna, nekazaritzako hobekuntzak, biztanleria, soberakinak eta burgu berriak."
+      ]
+    },
+    "2": {
+      "pages": [
+        64,
+        65
+      ],
+      "pdf_page": 3,
+      "sections": [
+        2
+      ],
+      "cast": [
+        "¿Cómo se produjo la expansión comercial?",
+        "Transportes, rutas, mercados, ferias, monedas y nacimiento de la banca."
+      ],
+      "eus": [
+        "Nola gertatu zen merkataritza-hedapena?",
+        "Garraioak, ibilbideak, merkatuak, azokak, txanponak eta bankaren sorrera."
+      ]
+    },
+    "3": {
+      "pages": [
+        66,
+        67
+      ],
+      "pdf_page": 4,
+      "sections": [
+        3
+      ],
+      "cast": [
+        "¿Cómo eran las ciudades medievales?",
+        "Emplazamiento, murallas, plano, edificios, barrios y gobierno urbano."
+      ],
+      "eus": [
+        "Nolakoak ziren Erdi Aroko hiriak?",
+        "Kokalekua, harresiak, oinplanoa, eraikinak, auzoak eta hiriko gobernua."
+      ]
+    },
+    "4": {
+      "pages": [
+        68,
+        69
+      ],
+      "pdf_page": 5,
+      "sections": [
+        4
+      ],
+      "cast": [
+        "¿Cómo vivían los habitantes de las ciudades medievales?",
+        "Artesanía, gremios, talleres, aprendizaje, burguesía y vida cotidiana."
+      ],
+      "eus": [
+        "Nola bizi ziren Erdi Aroko hirietako biztanleak?",
+        "Artisautza, gremioak, lantegiak, ikaskuntza, burgesia eta eguneroko bizitza."
+      ]
+    },
+    "5": {
+      "pages": [
+        70,
+        71
+      ],
+      "pdf_page": 6,
+      "sections": [
+        5
+      ],
+      "cast": [
+        "¿Quién gobernaba en la Edad Media?",
+        "Monarquía, burguesía, cartas urbanas, fueros, impuestos y Cortes."
+      ],
+      "eus": [
+        "Nork agintzen zuen Erdi Aroan?",
+        "Monarkia, burgesia, hiri-gutunak, foruak, zergak eta gorteak."
+      ]
+    },
+    "6": {
+      "pages": [
+        72,
+        73
+      ],
+      "pdf_page": 7,
+      "sections": [
+        6
+      ],
+      "cast": [
+        "¿Qué impacto tuvo la Peste Negra en la sociedad europea?",
+        "Crisis del siglo XIV, contagio y consecuencias demográficas, económicas y sociales."
+      ],
+      "eus": [
+        "Zer eragin izan zuen Izurrite Beltzak Europako gizartean?",
+        "XIV. mendeko krisia, kutsatzea eta ondorio demografikoak, ekonomikoak eta sozialak."
+      ]
+    }
+  },
+  "questions_per_subtopic_language": 100,
+  "worksheet_items_per_subtopic_language": 25,
+  "voices": {
+    "cast": "es-ES-ElviraNeural",
+    "eus": "Google TTS · eu"
+  },
+  "podcast_seasons": {
+    "cast": 1,
+    "eus": 2
+  },
+  "podcast_episodes": [
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ]
+}

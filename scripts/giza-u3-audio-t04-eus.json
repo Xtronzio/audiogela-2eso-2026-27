@@ -1,0 +1,81 @@
+{
+  "file": "04-historia-eus-u3-t04-r1.mp3",
+  "voice": "Google TTS · eu",
+  "rate": "default",
+  "language": "eu",
+  "text_sha256": "85d901ffc3b5e92265079200402731f5027893bb1f87c2d8e05ab2b171a852f6",
+  "paragraphs": [
+    {
+      "paragraph": 1,
+      "words": 54,
+      "seconds": 29.712
+    },
+    {
+      "paragraph": 2,
+      "words": 67,
+      "seconds": 35.136
+    },
+    {
+      "paragraph": 3,
+      "words": 54,
+      "seconds": 30.816
+    },
+    {
+      "paragraph": 4,
+      "words": 55,
+      "seconds": 33.0
+    },
+    {
+      "paragraph": 5,
+      "words": 53,
+      "seconds": 31.032
+    },
+    {
+      "paragraph": 6,
+      "words": 58,
+      "seconds": 31.944
+    },
+    {
+      "paragraph": 7,
+      "words": 62,
+      "seconds": 35.448
+    },
+    {
+      "paragraph": 8,
+      "words": 48,
+      "seconds": 25.512
+    },
+    {
+      "paragraph": 9,
+      "words": 40,
+      "seconds": 26.16
+    },
+    {
+      "paragraph": 10,
+      "words": 56,
+      "seconds": 31.44
+    },
+    {
+      "paragraph": 11,
+      "words": 53,
+      "seconds": 29.04
+    },
+    {
+      "paragraph": 12,
+      "words": 58,
+      "seconds": 33.096
+    },
+    {
+      "paragraph": 13,
+      "words": 54,
+      "seconds": 32.424
+    },
+    {
+      "paragraph": 14,
+      "words": 50,
+      "seconds": 31.56
+    }
+  ],
+  "seconds": 436.368,
+  "bytes": 2618518
+}

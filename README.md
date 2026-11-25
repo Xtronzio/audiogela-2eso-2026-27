@@ -13,14 +13,14 @@ Este repositorio contiene un aula independiente de 2.º ESO. Puede enlazarse des
 
 ## Estado actual
 
-Primera unidad de Historia completa en castellano y euskera:
+Tres unidades de Historia completas en castellano y euskera:
 
-- 6 temas.
-- 12 audios: 6 `CAST` y 6 `EUS`.
-- 12 autoevaluaciones interactivas.
-- 1.200 preguntas interactivas: 100 por tema e idioma.
-- 12 autoevaluaciones imprimibles.
-- 300 actividades escritas: 25 por tema e idioma.
+- 20 subtemas: 7 de U1, 7 de U2 y 6 de U3.
+- 40 audios: 20 `CAST` y 20 `EUS`.
+- 40 autoevaluaciones interactivas.
+- 4.000 preguntas interactivas: 100 por subtema e idioma.
+- 40 autoevaluaciones imprimibles.
+- 1.000 actividades escritas: 25 por subtema e idioma.
 - Podcast organizado como serie en dos temporadas.
 
 ## Historia · Unidad 1 · Edad Media
@@ -72,7 +72,7 @@ El RSS está configurado como podcast de tipo `serial`, con reproducción secuen
 - **Temporada 1:** castellano.
 - **Temporada 2:** euskera.
 
-Cada temporada contiene los episodios T01–T06. Los títulos incorporan `CAST` o `EUS`, y cada episodio conserva un identificador único para evitar duplicados al actualizar el canal.
+Cada temporada contiene 20 episodios: U1 (1–7), U2 (8–14) y U3 (15–20). Los títulos incorporan `CAST` o `EUS`, y cada episodio conserva un identificador único para evitar duplicados al actualizar el canal.
 
 Los futuros temas se añadirán a ambas temporadas con el mismo número de episodio. Los podcasts de otros cursos se mantendrán separados.
 
@@ -172,7 +172,7 @@ Historia en euskera utiliza Google TTS con idioma `eu`, el sistema validado
 para los temas 1–6. Al-Ándalus se ha corregido con esa misma voz. No generar
 los audios de Historia en euskera con una voz configurada para castellano.
 
-Los 22 apartados actuales (14 de GIZA y 8 de FIKI) enlazan el texto completo
+Todos los apartados actuales de GIZA y FIKI enlazan el texto completo
 de su narración, con lectura, reproductor e impresión. Los guiones originales
 se conservan en `scripts/narrations/`; T07 usa `scripts/alandalus-content.json`.
 Todo nuevo apartado debe incluir también el texto exacto de su audio.
@@ -239,3 +239,43 @@ tamaños. La generación castellana verifica todos los límites de palabra;
 ambos idiomas verifican párrafos y decodificación. Los archivos completos se
 publican después de validar la concatenación. La página 16 del PDF repite la
 15; la referencia no supone dos apartados diferentes.
+
+
+## GIZA · Unidad 3 · Por caminos y murallas
+
+Seis apartados numerados independientes según el material escaneado:
+
+| Subtema | Castellano | Euskara | Páginas del libro |
+|---|---|---|---|
+| T01 | Renacer de las ciudades | Hiriak berpiztea | 62–63 |
+| T02 | Expansión comercial | Merkataritza-hedapena | 64–65 |
+| T03 | Las ciudades medievales | Erdi Aroko hiriak | 66–67 |
+| T04 | Los habitantes urbanos | Hirietako biztanleak | 68–69 |
+| T05 | El poder político | Nork agintzen zuen | 70–71 |
+| T06 | La Peste Negra | Izurrite Beltza | 72–73 |
+
+Cada apartado ofrece una explicación completa en ambos idiomas, con ejemplos
+y repaso final, audio y transcripción exacta. Conserva Elvira en castellano
+y Google TTS nativo `eu` en euskera. Se han excluido los recuadros y ejercicios
+tachados en rojo del material. La introducción sirve de contexto, sin añadir
+un séptimo subtema ni contenidos de arte gótico que no están desarrollados
+en los seis apartados facilitados.
+
+Total nuevo: 12 audios, 12 autoevaluaciones de cinco niveles, 1.200 preguntas
+y 12 fichas imprimibles con 25 actividades y soluciones aparte. Las rondas
+interactivas mantienen 10+10 preguntas, respuestas barajadas, corrección
+razonada y puntuación guardada por unidad, apartado, idioma y nivel.
+
+El RSS existente incorpora los episodios 15–20 de cada idioma (temporadas
+1 CAST y 2 EUS). Los GUID de U1 y U2 y sus contenidos se conservan.
+
+```sh
+python scripts/giza-u3-audio.py --lang cast
+python scripts/giza-u3-audio.py --lang eus
+python scripts/build-giza-u3.py
+AUDIOGELA_QA_MODULES=/ruta/a/linkedom node scripts/validate-giza-u3.mjs
+```
+
+El manifiesto de contenido identifica el documento y su SHA-256; los
+manifiestos de audio registran voz, huella del texto, duración y tamaño.
+El PDF escaneado no se publica en la web.

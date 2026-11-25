@@ -1,0 +1,81 @@
+{
+  "file": "03-historia-u3-t03-r1.mp3",
+  "voice": "es-ES-ElviraNeural",
+  "rate": "-3%",
+  "language": "es-ES",
+  "text_sha256": "8df6a141e2c073c964566cb1d231709f43e7b8290038428044f9d066437e23cd",
+  "paragraphs": [
+    {
+      "paragraph": 1,
+      "words": 69,
+      "seconds": 28.512
+    },
+    {
+      "paragraph": 2,
+      "words": 82,
+      "seconds": 35.16
+    },
+    {
+      "paragraph": 3,
+      "words": 75,
+      "seconds": 31.2
+    },
+    {
+      "paragraph": 4,
+      "words": 74,
+      "seconds": 32.328
+    },
+    {
+      "paragraph": 5,
+      "words": 73,
+      "seconds": 30.624
+    },
+    {
+      "paragraph": 6,
+      "words": 75,
+      "seconds": 30.192
+    },
+    {
+      "paragraph": 7,
+      "words": 74,
+      "seconds": 32.304
+    },
+    {
+      "paragraph": 8,
+      "words": 84,
+      "seconds": 33.792
+    },
+    {
+      "paragraph": 9,
+      "words": 71,
+      "seconds": 31.464
+    },
+    {
+      "paragraph": 10,
+      "words": 87,
+      "seconds": 34.968
+    },
+    {
+      "paragraph": 11,
+      "words": 75,
+      "seconds": 35.52
+    },
+    {
+      "paragraph": 12,
+      "words": 78,
+      "seconds": 32.256
+    },
+    {
+      "paragraph": 13,
+      "words": 73,
+      "seconds": 30.792
+    },
+    {
+      "paragraph": 14,
+      "words": 65,
+      "seconds": 29.064
+    }
+  ],
+  "seconds": 448.224,
+  "bytes": 2689655
+}
